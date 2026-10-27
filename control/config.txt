@@ -3,8 +3,8 @@
 
 ######## Login options and server-specific options ########
 
-master
-server
+master Eir Eventyr RO
+server 0
 username
 password
 loginPinCode
@@ -214,7 +214,10 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap
+lockMap prt_fild04
+# Talk steps for the Prontera warper at (159,194) to reach lockMap (used by eventMacros.txt).
+# OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
+warper_steps r~/(Pront\w* Field 0?4|prt_fild0?4)\b/i
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -299,9 +302,9 @@ sitAuto_look_from_wall
 sitAuto_look_delay
 sitTensionRelax 0
 
-statsAddAuto 0
-statsAddAuto_list
-statsAddAuto_dontUseBonus 0
+statsAddAuto 1
+statsAddAuto_list 60 str, 99 agi
+statsAddAuto_dontUseBonus 1
 statsAdd_over_99 1
 
 skillsAddAuto 0
@@ -310,7 +313,7 @@ skillsAddAuto_list
 tankMode 0
 tankModeTarget
 
-teleportAuto_hp 10
+teleportAuto_hp 0
 teleportAuto_sp 0
 teleportAuto_idle 0
 teleportAuto_portal 0
@@ -318,19 +321,19 @@ teleportAuto_search 0
 teleportAuto_minAggressives 0
 teleportAuto_minAggressivesInLock 0
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg 500
+teleportAuto_maxDmg 0
 teleportAuto_maxDmgInLock 0
-teleportAuto_deadly 1
-teleportAuto_useSkill 1
+teleportAuto_deadly 0
+teleportAuto_useSkill 0
 teleportAuto_useChatCommand
 teleportAuto_allPlayers 0
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
-teleportAuto_atkMiss 10
+teleportAuto_atkMiss 0
 teleportAuto_unstuck 0
 teleportAuto_lostTarget 0
 teleportAuto_dropTarget 0
-teleportAuto_dropTargetEngaged 1
+teleportAuto_dropTargetEngaged 0
 teleportAuto_dropTargetKS 0
 teleportAuto_dropTargetHidden 0
 teleportAuto_attackedWhenSitting 0

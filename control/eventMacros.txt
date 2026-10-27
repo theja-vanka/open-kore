@@ -1,0 +1,43 @@
+automacro EnableAutolootOnLogin {
+	OnCharLogIn 1
+	call {
+		pause 2
+		do c @autoloot 100
+	}
+}
+
+automacro RememberDeath {
+	SimpleHookEvent self_died
+	call {
+		$needHeal = 1
+	}
+}
+
+automacro HealAfterRespawn {
+	InMap prontera
+	VarValue $needHeal 1
+	isAlive 1
+	exclusive 1
+	call {
+		log Respawned in Prontera - visiting the healer.
+		pause 2
+		do move 162 194
+		pause 1
+		do talknpc 162 196 n
+		pause 1
+		$needHeal = 0
+		log Healed and buffed - taking the warper to &config(lockMap).
+		do talknpc 159 194 &config(warper_steps)
+	}
+}
+
+automacro QuitWhenOverweight {
+	CharCurrentWeight >= 90%
+	exclusive 1
+	priority 0
+	call {
+		log Weight is at 90% or more - quitting.
+		do ai off
+		do quit
+	}
+}
