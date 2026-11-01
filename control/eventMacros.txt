@@ -11,7 +11,7 @@ automacro EnableAutolootOnLogin {
 	}
 }
 
-# Blessing or Increase AGI wore off while hunting: Butterfly Wing to Prontera, then HealAfterRespawn heals and warps back.
+# Blessing or Increase AGI wore off while hunting: Butterfly Wing to Prontera; PronteraToHuntMap does the rest.
 automacro RebuffWhenBuffsOff {
 	InMap $huntMap
 	VarValue $buffCheckReady 1
@@ -22,34 +22,35 @@ automacro RebuffWhenBuffsOff {
 	timeout 30
 	call {
 		log Buff wore off - Butterfly Wing to Prontera for the healer.
-		$needHeal = 1
 		do is Butterfly Wing
 	}
 }
 
-automacro RememberDeath {
-	SimpleHookEvent self_died
-	call {
-		$needHeal = 1
-	}
-}
-
-# Storage finished (weight >= itemsMaxWeight_sellOrStore, or after death): queue the heal + warper trip.
-# overrideNotWhenInQueue: this hook fires while storageAuto is still in the AI queue.
-automacro RememberStorageDone {
-	SimpleHookEvent AI_storage_done
-	overrideNotWhenInQueue 1
-	call {
-		$needHeal = 1
-	}
-}
-
-# Runs only after storageAuto has left the AI queue (eventMacro_notWhenInQueue), so the order is store -> heal -> warp.
-automacro HealAfterRespawn {
-	InMap prontera
-	VarValue $needHeal 1
+# Walking to the hunting map is broken on this server (remade Izlude), so never walk there:
+# on any map other than Prontera or the hunting map, Butterfly Wing to Prontera first.
+automacro WingToPronteraIfElsewhere {
+	NotInMap prontera
+	VarValue $buffCheckReady 1
+	InInventory "Butterfly Wing" > 0
 	isAlive 1
 	exclusive 1
+	timeout 30
+	call {
+		if ($.map != $huntMap) {
+			log On $.map instead of $huntMap - Butterfly Wing to Prontera to use the warper.
+			do is Butterfly Wing
+		}
+	}
+}
+
+# In Prontera for any reason (login, respawn, after storage, rebuff): heal, then take the warper to the hunting map.
+# Runs only after storageAuto has left the AI queue (eventMacro_notWhenInQueue), so the order is store -> heal -> warp.
+automacro PronteraToHuntMap {
+	InMap prontera
+	VarValue $buffCheckReady 1
+	isAlive 1
+	exclusive 1
+	timeout 20
 	call {
 		log In Prontera - visiting the healer.
 		pause 2
@@ -57,8 +58,7 @@ automacro HealAfterRespawn {
 		pause 1
 		do talknpc 162 196 n
 		pause 1
-		$needHeal = 0
-		log Healed and buffed - taking the warper to &config(lockMap).
+		log Healed and buffed - taking the warper to $huntMap.
 		do talknpc 159 194 &config(warper_steps)
 	}
 }
