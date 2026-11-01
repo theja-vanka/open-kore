@@ -208,16 +208,16 @@ itemsGatherAuto_notInTown 0
 itemsGatherAutoMinPlayerDistance 6
 itemsGatherAutoMinPortalDistance 5
 itemsMaxWeight 89
-itemsMaxWeight_sellOrStore 48
+itemsMaxWeight_sellOrStore 50
 itemsMaxNum_sellOrStore 99
 cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap prt_fild04
+lockMap iz_dun02
 # Talk steps for the Prontera warper at (159,194) to reach lockMap (used by eventMacros.txt).
 # OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
-warper_steps r~/(Pront\w* Field 0?4|prt_fild0?4)\b/i
+warper_steps r~/(iz_dun0?2|(Byalan|Izlude)\D*0?3)\b/i
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -271,7 +271,7 @@ runFromTarget_noAttackMethodFallback 0
 runFromTarget_noAttackMethodFallback_attackMaxDist 14
 runFromTarget_noAttackMethodFallback_minStep 8
 
-saveMap
+saveMap prontera
 saveMap_x
 saveMap_y
 saveMap_warp 0
@@ -324,7 +324,7 @@ teleportAuto_onlyWhenSafe 0
 teleportAuto_maxDmg 0
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 0
-teleportAuto_useSkill 0
+teleportAuto_useSkill 1
 teleportAuto_useChatCommand
 teleportAuto_allPlayers 0
 teleportAuto_notPlayers
@@ -654,13 +654,17 @@ doCommand {
 	# [checkSelfCondition]
 }
 
-useSelf_skill {
+useSelf_skill Two-Hand Quicken {
 	lvl
 	maxCastTime 0
 	minCastTime 0
 	smartEncore 0
 	noSmartHeal 0
-	# [checkSelfCondition]
+	whenStatusInactive EFST_TWOHANDQUICKEN
+	whenEquip_Right_Hand_Type 2hSword
+	sp >= 50
+	notWhileSitting 1
+	timeout 3
 }
 
 useSelf_skill_smartHeal 1
@@ -727,9 +731,11 @@ equipAuto {
 	# [checkMonsterCondition]
 }
 
-useSelf_item {
+useSelf_item Awakening Potion {
 	dcOnEmpty 0
-	# [checkSelfCondition]
+	whenStatusInactive EFST_ATTHASTE_POTION2, EFST_ATTHASTE_POTION3
+	notWhileSitting 1
+	timeout 3
 }
 
 ######## Autostorage/autosell ########
@@ -759,9 +765,9 @@ sellAuto_distance 3
 sellAuto_maxDistance
 sellAuto_npc_steps s
 
-storageAuto 0
+storageAuto 1
 storageAuto_onStart 0
-storageAuto_npc
+storageAuto_npc prontera 151 196
 storageAuto_standpoint
 storageAuto_distance 3
 storageAuto_maxDistance
@@ -781,9 +787,9 @@ minStorageZeny 50
 npcTimeResponse
 npcWrongStepsMethod 0
 
-getAuto {
-	minAmount
-	maxAmount
+getAuto Butterfly Wing {
+	minAmount 3
+	maxAmount 10
 	batchSize
 	passive
 	dcOnEmpty 0

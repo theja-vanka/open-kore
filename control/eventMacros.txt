@@ -1,8 +1,29 @@
 automacro EnableAutolootOnLogin {
 	OnCharLogIn 1
 	call {
+		$buffCheckReady = 0
+		$huntMap = &config(lockMap)
 		pause 2
 		do c @autoloot 100
+		# Buff list is empty right after (re)connecting until the server re-sends it; wait before checking buffs.
+		pause 8
+		$buffCheckReady = 1
+	}
+}
+
+# Blessing or Increase AGI wore off while hunting: Butterfly Wing to Prontera, then HealAfterRespawn heals and warps back.
+automacro RebuffWhenBuffsOff {
+	InMap $huntMap
+	VarValue $buffCheckReady 1
+	StatusInactiveHandle EFST_BLESSING, EFST_INC_AGI
+	InInventory "Butterfly Wing" > 0
+	isAlive 1
+	exclusive 1
+	timeout 30
+	call {
+		log Buff wore off - Butterfly Wing to Prontera for the healer.
+		$needHeal = 1
+		do is Butterfly Wing
 	}
 }
 
@@ -13,13 +34,24 @@ automacro RememberDeath {
 	}
 }
 
+# Storage finished (weight >= itemsMaxWeight_sellOrStore, or after death): queue the heal + warper trip.
+# overrideNotWhenInQueue: this hook fires while storageAuto is still in the AI queue.
+automacro RememberStorageDone {
+	SimpleHookEvent AI_storage_done
+	overrideNotWhenInQueue 1
+	call {
+		$needHeal = 1
+	}
+}
+
+# Runs only after storageAuto has left the AI queue (eventMacro_notWhenInQueue), so the order is store -> heal -> warp.
 automacro HealAfterRespawn {
 	InMap prontera
 	VarValue $needHeal 1
 	isAlive 1
 	exclusive 1
 	call {
-		log Respawned in Prontera - visiting the healer.
+		log In Prontera - visiting the healer.
 		pause 2
 		do move 162 194
 		pause 1

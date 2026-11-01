@@ -53,6 +53,7 @@ all 0 1 0
 546 50 1 0 # Condensed Yellow Potion
 506 0 1 0 # Green Potion
 501 25 1 0 # Red Potion
+656 0 0 0 # Awakening Potion (never store)
 502 25 1 0 # Orange Potion
 504 25 1 0  # White Potion
 503 25 1 0 # Yellow potion
@@ -1755,3 +1756,2194 @@ Spearman Scroll 10 0 0 0
 25150 0 0 0 0 0 # Hugging_Alice_Pilow
 26100 0 0 0 0 0 # Paradise_Foxtail_Staff_II
 26101 0 0 0 0 0 # Paradise_Foxtail_Staff_III
+
+
+##### Items this server does not allow in storage: keep them, never store or auto-sell #####
+# Generated from data\itemmoveinfov5.txt (Storage column = 1) in eir-eventyr-ro.grf.
+# Without these, autostorage retries a refused item forever and never finishes.
+671 0 0 0 # Roulette Gold Coin
+675 0 0 0 # Roulette Silver Coin
+766 0 0 0 # Silky Fur Bundle
+1173 0 0 0 # Muramasa
+1174 0 0 0 # Executioner
+1183 0 0 0 # Brave Assaulter's Katzbalger
+1184 0 0 0 # Valorous Assaulter's Katzbalger
+1187 0 0 0 # Glorious Claymore
+1190 0 0 0 # Claymore
+1192 0 0 0 # Eden Slayer I
+1193 0 0 0 # Eden Slayer II
+1197 0 0 0 # Eden Slayer III
+1198 0 0 0 # Hairtail
+1243 0 0 0 # Novice Main-Gauche
+1267 0 0 0 # Infiltrator
+1273 0 0 0 # Bloody Roar
+1274 0 0 0 # Unholy Touch
+1279 0 0 0 # Brave Carnage Katar
+1280 0 0 0 # Valorous Carnage Katar
+1281 0 0 0 # Glorious Bloody Roar
+1282 0 0 0 # Glorious Jamadhar
+1283 0 0 0 # Katar of Speed
+1286 0 0 0 # Jamadhar
+1288 0 0 0 # Bloody Fear
+1289 0 0 0 # Eden Katar I
+1296 0 0 0 # Metal Katar
+1299 0 0 0 # TE WoE Katar
+1310 0 0 0 # Glorious Cleaver
+1312 0 0 0 # Orcish Axe
+1313 0 0 0 # Traveler's Axe
+1319 0 0 0 # TE WoE Axe
+1372 0 0 0 # Light Epsilon
+1373 0 0 0 # Refined Bloody Axe
+1374 0 0 0 # Tomahawk
+1378 0 0 0 # Refined Great Axe
+1379 0 0 0 # Valorous Insane Battle Axe
+1380 0 0 0 # Brave Insane Battle Axe
+1382 0 0 0 # Glorious Two-Handed Axe
+1386 0 0 0 # Doom Slayer
+1388 0 0 0 # Two-Handed Axe
+1391 0 0 0 # Eden Two-Handed Axe I
+1398 0 0 0 # Metal Two-Handed Axe
+1399 0 0 0 # TE WoE Two-Handed Axe
+1419 0 0 0 # Pole Axe
+1424 0 0 0 # Refined Brocca
+1425 0 0 0 # Assaulter Spear
+1426 0 0 0 # Glorious Spear
+1427 0 0 0 # Spear of Excellent
+1430 0 0 0 # Pike
+1434 0 0 0 # Eden Spear I
+1437 0 0 0 # TE WoE Pike
+1482 0 0 0 # Assaulter Lance
+1486 0 0 0 # Glorious Lance
+1487 0 0 0 # Lance
+1488 0 0 0 # Ahlspiess
+1489 0 0 0 # Marlin
+1493 0 0 0 # Metal Lance
+1495 0 0 0 # TE WoE Lance
+1533 0 0 0 # Warrior's Balmung
+1534 0 0 0 # Wrench
+1537 0 0 0 # Refined Quadrille
+1542 0 0 0 # Valorous Battlefield Morning Star
+1543 0 0 0 # Brave Battlefield Morning Star
+1546 0 0 0 # Glorious Morning Star
+1547 0 0 0 # Mace of Madness
+1563 0 0 0 # Sage's Diary
+1567 0 0 0 # Refined Hardcover Book
+1574 0 0 0 # Brave Battle Strategy Book
+1575 0 0 0 # Valorous Battle Strategy Book
+1576 0 0 0 # Glorious Tablet
+1577 0 0 0 # Glorious Apocalypse
+1578 0 0 0 # Book of Prayer
+1580 0 0 0 # Giant Encyclopedia
+1583 0 0 0 # Eden Dictionary I
+1588 0 0 0 # Metal Book
+1591 0 0 0 # TE WoE Book
+1598 0 0 0 # Snake Encyclopedia
+1623 0 0 0 # Mighty Staff
+1628 0 0 0 # Refined Staff of Survival
+1632 0 0 0 # Warlock's Magic Wand
+1633 0 0 0 # Warlock's Battle Wand
+1634 0 0 0 # Strong Recovery Wand
+1635 0 0 0 # Speedy Recovery Wand
+1638 0 0 0 # Staff of Healing
+1640 0 0 0 # Glorious Arc Wand
+1641 0 0 0 # Glorious Healing Wand
+1642 0 0 0 # Staff of Darkness
+1650 0 0 0 # Eden Staff I
+1651 0 0 0 # Eden Staff II
+1652 0 0 0 # Traveler's Staff
+1653 0 0 0 # Staff of Healing
+1658 0 0 0 # Eden Staff III
+1667 0 0 0 # TE WoE Staff
+1699 0 0 0 # Eden Foxtail I
+1703 0 0 0 # Bow
+1728 0 0 0 # Ballista
+1729 0 0 0 # Rudra Bow
+1738 0 0 0 # Valorous Battle Crossbow
+1739 0 0 0 # Brave Battle Crossbow
+1743 0 0 0 # Glorious Hunter Bow
+1744 0 0 0 # Bow of Evil
+1747 0 0 0 # Eden Bow I
+1748 0 0 0 # Eden Bow II
+1749 0 0 0 # Traveler's Bow
+1817 0 0 0 # Kaiser Knuckle
+1823 0 0 0 # Valorous Battle Fist
+1824 0 0 0 # Brave Battle Fist
+1826 0 0 0 # Glorious Claw
+1827 0 0 0 # Glorious Fist
+1828 0 0 0 # Monk Knuckle
+1829 0 0 0 # Fist
+1831 0 0 0 # Eden Knuckle I
+1834 0 0 0 # TE WoE Fist
+1845 0 0 0 # Trial Sura's Knuckle
+1848 0 0 0 # Beginner Sura's Knuckle
+1864 0 0 0 # Sealed Iron Nail
+1923 0 0 0 # Valorous Battlefield Guitar
+1924 0 0 0 # Brave Battlefield Guitar
+1927 0 0 0 # Glorious Guitar
+1928 0 0 0 # Berserk Guitar
+1929 0 0 0 # Guitar
+1931 0 0 0 # Eden Guitar I
+1932 0 0 0 # TE WoE Guitar
+1977 0 0 0 # Valorous Battle Lariat
+1978 0 0 0 # Brave Battle Lariat
+1981 0 0 0 # Glorious Lariat
+1982 0 0 0 # Phenomena Whip
+1983 0 0 0 # Rante Whip
+1986 0 0 0 # Eden Whip I
+1987 0 0 0 # TE WoE Rope
+2002 0 0 0 # Glorious Destruction Staff
+2018 0 0 0 # Metal Staff
+2019 0 0 0 # TE WoE Two-Handed Staff
+2033 0 0 0 # Enhanced Metal Staff
+2040 0 0 0 # Trial Warlock's Staff
+2046 0 0 0 # Beginner Warlock's Staff
+2054 0 0 0 # Sealed Iron Staff
+2112 0 0 0 # Novice Guard
+2132 0 0 0 # Shelter Resistance
+2136 0 0 0 # Cracked Buckler
+2137 0 0 0 # Neo Valkyrie Shield
+2140 0 0 0 # Energy Rune Guard
+2152 0 0 0 # Anti Demon Shield
+2178 0 0 0 # TE WoE Buckler
+2179 0 0 0 # TE WoE Shield
+2180 0 0 0 # TE WoE Magic Guard
+2352 0 0 0 # Tattered Novice Ninja Suit
+2369 0 0 0 # Freya Overcoat
+2376 0 0 0 # Assaulter Plate
+2377 0 0 0 # Elite Engineer Armor
+2378 0 0 0 # Assassin Robe
+2379 0 0 0 # Warlock's Battle Robe
+2380 0 0 0 # Medic's Robe
+2381 0 0 0 # Elite Archer Suit
+2382 0 0 0 # Elite Shooter Suit
+2384 0 0 0 # Spiritual Tunic
+2385 0 0 0 # Recuperative Armor
+2392 0 0 0 # Old Green Pantie
+2393 0 0 0 # Novice Adventurer's Suit
+2394 0 0 0 # Glorious Suit
+2395 0 0 0 # Glorious Popularized Suit
+2396 0 0 0 # Glorious Mass-Production Suit
+2414 0 0 0 # Novice Slippers
+2428 0 0 0 # Freya Boots
+2429 0 0 0 # Iron Boots
+2430 0 0 0 # Iron Boots
+2435 0 0 0 # Battle Greaves
+2436 0 0 0 # Combat Boots
+2437 0 0 0 # Battle Boots
+2439 0 0 0 # Refresh Shoes
+2442 0 0 0 # Red Stocking Boots
+2443 0 0 0 # Fisher's Boots
+2444 0 0 0 # Glorious Shoes
+2445 0 0 0 # Glorious Popularized Shoes
+2446 0 0 0 # Glorious Mass-Production Shoes
+2456 0 0 0 # Eden Group Boots I
+2457 0 0 0 # Eden Group Boots II
+2458 0 0 0 # Eden Group Boots III
+2463 0 0 0 # Feral Boots
+2473 0 0 0 # Eden Group Boots IV
+2496 0 0 0 # TE WoE Shoes
+2497 0 0 0 # TE WoE Boots
+2498 0 0 0 # TE WoE Magic Sandals
+2510 0 0 0 # Somber Novice Hood
+2533 0 0 0 # Freya Cape
+2535 0 0 0 # Manteau of Survival
+2538 0 0 0 # Captain's Manteau
+2539 0 0 0 # Commander's Manteau
+2540 0 0 0 # Sheriff's Manteau
+2543 0 0 0 # Sylphid Manteau
+2547 0 0 0 # Cheap Undershirt
+2548 0 0 0 # Neo Muffler
+2549 0 0 0 # Glorious Muffler
+2560 0 0 0 # Eden Group Manteau
+2564 0 0 0 # Feral Tail
+2566 0 0 0 # Half Asprika
+2571 0 0 0 # Eden Group Manteau II
+2634 0 0 0 # Wedding Ring
+2635 0 0 0 # Wedding Ring
+2642 0 0 0 # Serin's Gold Ring
+2644 0 0 0 # The Sign
+2647 0 0 0 # Nile Rose
+2668 0 0 0 # Woman Glory
+2673 0 0 0 # Warrior's Shining Ring
+2674 0 0 0 # Ring of Honor
+2676 0 0 0 # Hunter's Earring
+2681 0 0 0 # Republic Anniversary Ring
+2686 0 0 0 # Elven Ears
+2687 0 0 0 # Steel Flower
+2688 0 0 0 # Critical Ring
+2689 0 0 0 # Earring
+2690 0 0 0 # Ring
+2691 0 0 0 # Necklace
+2692 0 0 0 # Glove
+2693 0 0 0 # Brooch
+2694 0 0 0 # Rosary
+2695 0 0 0 # Safety Ring
+2696 0 0 0 # Vesper Core 01
+2697 0 0 0 # Vesper Core 02
+2698 0 0 0 # Vesper Core 03
+2699 0 0 0 # Vesper Core 04
+2706 0 0 0 # Arrest Handcuffs
+2709 0 0 0 # G10 Anniversary Coin
+2710 0 0 0 # Bloody Iron Ball
+2711 0 0 0 # Spiritual Ring
+2713 0 0 0 # Certificate
+2720 0 0 0 # Medal of Honor
+2721 0 0 0 # Medal of Honor
+2722 0 0 0 # Medal of Honor
+2723 0 0 0 # Medal of Honor
+2724 0 0 0 # Medal of Honor
+2725 0 0 0 # Medal of Honor
+2733 0 0 0 # Sheriff Badge
+2734 0 0 0 # Directive
+2735 0 0 0 # Directive
+2738 0 0 0 # Shiny Commemorative coin
+2739 0 0 0 # Japan Commemorative Coin
+2740 0 0 0 # Rusty Commemorative Coin
+2741 0 0 0 # All in One Ring
+2742 0 0 0 # Lucky Clip
+2750 0 0 0 # Summer Night Dream
+2752 0 0 0 # Fraxinus
+2753 0 0 0 # Beholder Ring
+2754 0 0 0 # Hallow Ring
+2755 0 0 0 # Clamorous Ring
+2756 0 0 0 # Chemical Ring
+2757 0 0 0 # Insecticide Ring
+2758 0 0 0 # Fisher Ring
+2759 0 0 0 # Decussate Ring
+2760 0 0 0 # Bloody Ring
+2761 0 0 0 # Satanic Ring
+2762 0 0 0 # Dragon Ring
+2763 0 0 0 # Neo Skull Ring
+2766 0 0 0 # Swordman Figure
+2767 0 0 0 # Acolyte Figure
+2768 0 0 0 # Magician Figure
+2769 0 0 0 # Archer Figure
+2770 0 0 0 # Thief Figure
+2771 0 0 0 # Merchant Figure
+2772 0 0 0 # Glorious Ring
+2773 0 0 0 # Glorious Popularized Ring
+2774 0 0 0 # Glorious Mass-Production Ring
+2792 0 0 0 # Ring of Flame Lord
+2793 0 0 0 # Ring of Resonance
+2794 0 0 0 # Magic Stone Ring
+2795 0 0 0 # Green Apple Ring
+2796 0 0 0 # Magical Stone
+2797 0 0 0 # Magical Stone
+2798 0 0 0 # Will of Exhausted Warrior
+2816 0 0 0 # Radar Ring
+2817 0 0 0 # Radar Ring
+2818 0 0 0 # Radar Ring
+2819 0 0 0 # Swordman Manual
+2820 0 0 0 # Thief Manual
+2821 0 0 0 # Acolyte Manual
+2822 0 0 0 # Archer Manual
+2823 0 0 0 # Merchant Manual
+2824 0 0 0 # Magician Manual
+2832 0 0 0 # Freya Ring R
+2841 0 0 0 # Caracas Ring
+2843 0 0 0 # Golden Bell
+2856 0 0 0 # Half Megingjord
+2857 0 0 0 # Half Brisingamen
+2863 0 0 0 # Valkyrie Ring
+2885 0 0 0 # Mother's Heart
+2940 0 0 0 # Ninja Manual
+2941 0 0 0 # Gunslinger Manual
+2942 0 0 0 # Taekwon Manual
+2944 0 0 0 # TE Ring of Protection
+2945 0 0 0 # TE Rage Ring
+2946 0 0 0 # TE Defiance Ring
+2950 0 0 0 # Rune Ring
+5147 0 0 0 # Baseball Cap
+5149 0 0 0 # Silver Tiara
+5179 0 0 0 # Golden Tiara
+5265 0 0 0 # Apple of Archer
+5266 0 0 0 # Bunny Band
+5267 0 0 0 # Sakkat
+5268 0 0 0 # Grand Circlet
+5269 0 0 0 # Flapping Angel Wings
+5279 0 0 0 # Refined Drooping Cat
+5280 0 0 0 # Majestic Goat
+5281 0 0 0 # Refined Deviruchi Hat
+5286 0 0 0 # Pecopeco Hairband
+5288 0 0 0 # Red Glasses
+5293 0 0 0 # Ramen Hat
+5294 0 0 0 # Whisper Mask
+5306 0 0 0 # Freya Crown
+5314 0 0 0 # Hockey Mask
+5315 0 0 0 # Observer
+5326 0 0 0 # Butterfly Mask
+5327 0 0 0 # Refined Helmet of Orc Hero
+5328 0 0 0 # Evil Wing Ears
+5329 0 0 0 # Dark Blinkers
+5330 0 0 0 # Drooping Kitty
+5331 0 0 0 # Corsair
+5336 0 0 0 # Guildsman Recruiter Hat
+5337 0 0 0 # Party Recruiter Hat
+5338 0 0 0 # Battlefield Recruiter Hat
+5339 0 0 0 # Friend Recruiter Hat
+5346 0 0 0 # Gf Recruiter Hat
+5391 0 0 0 # Crunch Toast
+5394 0 0 0 # Bubble Gum
+5408 0 0 0 # Old Bandana
+5410 0 0 0 # Brown Paperbag Hat
+5412 0 0 0 # Lollipop
+5460 0 0 0 # Evolved Dragon Skull Hat
+5461 0 0 0 # Evolved Whisper Mask
+5462 0 0 0 # Spiked Scarf
+5463 0 0 0 # Rainbow Scarf
+5492 0 0 0 # Student Cap
+5493 0 0 0 # Ulle's Cap
+5494 0 0 0 # Sphinx Hat
+5521 0 0 0 # Angry Mouth
+5536 0 0 0 # Spare Card
+5551 0 0 0 # Sacreg Egg Hat
+5583 0 0 0 # Eden Group Hat
+5587 0 0 0 # Mosquito Coil For 1 Use
+5596 0 0 0 # Four Leaf Clover
+5597 0 0 0 # Chewing Gum
+5668 0 0 0 # Mysterious Pumpkin Hat
+5793 0 0 0 # Life Ribbon
+5794 0 0 0 # 3D Glasses
+5796 0 0 0 # Cheering Scarf
+5797 0 0 0 # Cheering Scarf II
+5798 0 0 0 # Cheering Scarf III
+5799 0 0 0 # Cheering Scarf IV
+5812 0 0 0 # Hat of Water Expert
+5814 0 0 0 # 2011 Pagdayaw
+5817 0 0 0 # Valentine Token
+5818 0 0 0 # Carnival Hat
+5819 0 0 0 # Carnival Circlet
+5822 0 0 0 # Love Chick Hat
+5855 0 0 0 # Fishing Rod
+6006 0 0 0 # Delivery Ricecake Box
+6007 0 0 0 # Octopus Rice Cake Soup
+6009 0 0 0 # Big Fan of Magic
+6025 0 0 0 # Towel of Memory
+6027 0 0 0 # Crystal of Feardom
+6028 0 0 0 # Sealed Scroll
+6029 0 0 0 # Morocc Tracing Log
+6034 0 0 0 # Weird Part
+6035 0 0 0 # Decaying Stem
+6036 0 0 0 # Meeting Invitation
+6037 0 0 0 # Messy File
+6038 0 0 0 # Neat Report
+6039 0 0 0 # Piece of Fish
+6040 0 0 0 # Part of a Report
+6042 0 0 0 # Ordinary Branch
+6043 0 0 0 # Letter from Lugen
+6044 0 0 0 # Letter from Otto
+6045 0 0 0 # Supply Box
+6048 0 0 0 # Unidentified Mineral
+6049 0 0 0 # Marlin
+6051 0 0 0 # Gray Hollow
+6052 0 0 0 # Ornament Hairpin
+6060 0 0 0 # Moon Viewing Ticket
+6074 0 0 0 # Bazett's Order
+6076 0 0 0 # Portable Toolbox
+6077 0 0 0 # Rough Mineral
+6078 0 0 0 # Stone Fragment
+6079 0 0 0 # Flower of Alfheim
+6082 0 0 0 # Spirit of Alfheim
+6084 0 0 0 # Bradium Fragments
+6085 0 0 0 # Shaggy Muffler
+6093 0 0 0 # Draco's Egg
+6101 0 0 0 # Attendance Card
+6102 0 0 0 # Report on Splendide
+6103 0 0 0 # Report on Manuk
+6116 0 0 0 # Cute Pet Succubus Exchange Coupon
+6117 0 0 0 # Cute Pet Imp Exchange Coupon
+6118 0 0 0 # Cute Pet Green Maiden Exchange Coupon
+6121 0 0 0 # Makeover Brush
+6122 0 0 0 # Paint Brush
+6124 0 0 0 # Wolf Flute
+6125 0 0 0 # Lucky Box
+6126 0 0 0 # Summer Happy Box
+6127 0 0 0 # Purification Stone
+6130 0 0 0 # Cute Pet Lori Ruri Exchange Coupon
+6132 0 0 0 # Cute Pet Incubus Exchange Coupon
+6133 0 0 0 # Cute Pet Miyabi Ningyo Exchange Coupon
+6134 0 0 0 # Cute Pet Giant Whisper Exchange Coupon
+6135 0 0 0 # Cute Pet Evil Nymph Exchange Coupon
+6137 0 0 0 # Cute Pet Stone Shooter Exchange Coupon
+6138 0 0 0 # Cute Pet Marionette Exchange Coupon
+6139 0 0 0 # Cute Pet Leaf Cat Exchange Coupon
+6140 0 0 0 # Cute Pet Dullahan Exchange Coupon
+6141 0 0 0 # Cute Pet Shinobi Exchange Coupon
+6148 0 0 0 # Eternal Chocolate
+6149 0 0 0 # Rustic Chocolate
+6150 0 0 0 # Key of The Mansion
+6151 0 0 0 # Large Bradium Fragment
+6152 0 0 0 # Glittering Crystal
+6153 0 0 0 # Special Exchange Coupon
+6154 0 0 0 # Broken Horn Pipe
+6156 0 0 0 # A Report To Be Approved
+6206 0 0 0 # I Love You
+6207 0 0 0 # Thanks
+6208 0 0 0 # Respect
+6218 0 0 0 # Dieshin's Delivery Box
+6219 0 0 0 # Eden Group Token
+6236 0 0 0 # Blue 7 Card
+6237 0 0 0 # Guarana Fruit
+6266 0 0 0 # Key of Deception
+6267 0 0 0 # Key of Illusion
+6268 0 0 0 # Key of Pleasure
+6269 0 0 0 # Master's Brush
+6270 0 0 0 # Picture of Maestro Song
+6271 0 0 0 # Receipt
+6272 0 0 0 # Seed For Experiemnt
+6273 0 0 0 # Seed For Experiemnt
+6274 0 0 0 # Saint's Clothing Piece
+6275 0 0 0 # King's Shield
+6276 0 0 0 # Clear Reagent
+6277 0 0 0 # Red Reagent
+6278 0 0 0 # Black Reagent
+6296 0 0 0 # Reservist Notice
+6298 0 0 0 # Crushed Pumpkin
+6299 0 0 0 # Worn Fabric Piece
+6305 0 0 0 # Frozen Piece of Skin
+6306 0 0 0 # Clotted Bloodstain
+6307 0 0 0 # Strange Magic Stone
+6345 0 0 0 # Love Lump
+6347 0 0 0 # Paper Goodness
+6348 0 0 0 # Paper Goodness
+6349 0 0 0 # Paper Goodness
+6350 0 0 0 # Paper Goodness
+6351 0 0 0 # Paper Goodness
+6352 0 0 0 # Paper Goodness
+6353 0 0 0 # Paper Goodness
+6354 0 0 0 # Paper Goodness
+6355 0 0 0 # Paper Goodness
+6356 0 0 0 # Paper Goodness
+6357 0 0 0 # Fail Fortune Cookie
+6358 0 0 0 # Free Coupon Cache
+6359 0 0 0 # Coupon Guidebook
+6378 0 0 0 # Token of Victory War
+6383 0 0 0 # Lope's Clue
+6384 0 0 0 # Lope's Ring
+6385 0 0 0 # Research Tool Bag
+6386 0 0 0 # Bath Water Sample
+6387 0 0 0 # Tooth Sample
+6388 0 0 0 # Scale Sample
+6389 0 0 0 # Sample of Puddle Research
+6390 0 0 0 # Small Pocket
+6391 0 0 0 # Splendid Supply Kit
+6392 0 0 0 # Bradium Box
+6397 0 0 0 # GM Event Entry Ticket
+6398 0 0 0 # Cat Hand Warehouse Promotional Flyer
+6399 0 0 0 # Marketing Team Ticket
+6400 0 0 0 # Crumpled Greeting Card
+6401 0 0 0 # Palm Oils
+6402 0 0 0 # Palm Oil Fruit
+6411 0 0 0 # Ripe Watermelon
+6412 0 0 0 # Special Medal
+6415 0 0 0 # Strange Embryo
+6416 0 0 0 # Cute Pet Wanderman Exchange Coupon
+6424 0 0 0 # Spirit Piece
+6425 0 0 0 # Halloween Certificate
+6426 0 0 0 # Poor Can
+6427 0 0 0 # Poor Can Sack
+6428 0 0 0 # Adventure Card A
+6429 0 0 0 # Adventure Card B
+6430 0 0 0 # Fragment of Picture
+6431 0 0 0 # Bucket
+6432 0 0 0 # Full Bucket
+6433 0 0 0 # Cleaning Brush
+6434 0 0 0 # Fixing Kit
+6435 0 0 0 # Fresh Fruit
+6436 0 0 0 # Seagod's Protection
+6442 0 0 0 # Octopus Hunting Stick
+6446 0 0 0 # Green Paper
+6447 0 0 0 # Red Paper
+6448 0 0 0 # White Paper
+6449 0 0 0 # Ordinary Kid's Diary
+6450 0 0 0 # Honest Kid's Diary
+6451 0 0 0 # Unidentified Fish
+6452 0 0 0 # Etoille's Ring
+6464 0 0 0 # Hate Crate
+6480 0 0 0 # Poring Silver
+6500 0 0 0 # Sharpened Bamboo
+6501 0 0 0 # Salt Bag
+6502 0 0 0 # Silver Cross
+6504 0 0 0 # Cast-Iron Caldron
+6505 0 0 0 # Purified Spirit Bone
+6506 0 0 0 # Offering Bouquet
+6507 0 0 0 # Evil Spirit Bone
+6536 0 0 0 # Star Shape Decoration
+6539 0 0 0 # Old Left Lapine
+6540 0 0 0 # Golden Leaf
+6541 0 0 0 # Avant Research Data
+6543 0 0 0 # Level 110 Breakthrough Coin
+6544 0 0 0 # Level 120 Breakthrough Coin
+6545 0 0 0 # Firm Hair
+6546 0 0 0 # Younger Brother Letter
+6547 0 0 0 # Stained Research Book
+6548 0 0 0 # Piece of Lapine Wing
+6549 0 0 0 # Courtesy Ticket
+6552 0 0 0 # Mail Package
+6553 0 0 0 # Leaf Made Wood
+6554 0 0 0 # Seed Box
+6555 0 0 0 # Birthday Candle
+6556 0 0 0 # Premium Headphone Exchange Coupon
+6562 0 0 0 # Tiny Mouse Tail
+6563 0 0 0 # Weeds
+6566 0 0 0 # Fierce cacao 99 Recipe
+6567 0 0 0 # Chocolate Drink Recipe
+6586 0 0 0 # Captured Book
+6593 0 0 0 # Criatura Hair Coupon
+6654 0 0 0 # Needle And Thread
+6655 0 0 0 # Hard Pumpkin
+6656 0 0 0 # Controlling Amulet
+6657 0 0 0 # Jack Memories
+6673 0 0 0 # Ticket to Bossnia
+6674 0 0 0 # Beautiful Colorful Nipper
+6682 0 0 0 # Bag of Selling Goods
+6685 0 0 0 # Morocc Merit Certificate
+6686 0 0 0 # Brick
+6687 0 0 0 # Long Rope
+6688 0 0 0 # Wood
+6698 0 0 0 # Hatchet
+6699 0 0 0 # Divine Silence
+6700 0 0 0 # White Snake Scale
+6701 0 0 0 # Dwarf's Treasure
+6702 0 0 0 # The Glands of Dwarf
+6703 0 0 0 # Warrior's Tears
+6704 0 0 0 # Warrior's Wrath
+6705 0 0 0 # Warrior's Token
+6706 0 0 0 # Guardian Flower
+6708 0 0 0 # Mana Crystal
+6709 0 0 0 # Crisp Silk
+6710 0 0 0 # Bundled Snake
+6713 0 0 0 # Soul of Ahat
+6714 0 0 0 # Soul of Shnayim
+6720 0 0 0 # Status Reset Book
+6721 0 0 0 # Status Reset Book
+6722 0 0 0 # Delicious Clam Flesh
+6723 0 0 0 # Delicious Canned Food
+6724 0 0 0 # Savage Box
+6725 0 0 0 # Grand Peco Box
+6726 0 0 0 # Desert Wolf Box
+6727 0 0 0 # Arranged Photo Album
+6733 0 0 0 # Tingly Feather
+6746 0 0 0 # Iron Workpiece
+6747 0 0 0 # Iron Workpiece
+6748 0 0 0 # Excavator Report
+6749 0 0 0 # Power Control Device
+6754 0 0 0 # Gathered Herb
+6766 0 0 0 # Tickets Ice Kingdom
+6767 0 0 0 # Summer Festival Coins
+6768 0 0 0 # Shaved Ice For Red Beans
+6769 0 0 0 # Sweet Bread
+6784 0 0 0 # Squid Skewer
+6785 0 0 0 # Source of Fantasy
+6786 0 0 0 # Squid Barbecue
+6787 0 0 0 # Long Firewood
+6788 0 0 0 # Rose Knife
+6789 0 0 0 # Customized Plates
+6824 0 0 0 # Laboratory Memory Record
+6825 0 0 0 # Air Cleaner Box
+6826 0 0 0 # Fresh Grape
+6827 0 0 0 # Complete Machine Part
+6836 0 0 0 # Talisman of Soul
+6837 0 0 0 # Piece of Mouse Soul
+6838 0 0 0 # Secret Orders of Prophet K
+6842 0 0 0 # Large Jewelry
+6843 0 0 0 # Thin Ring
+6844 0 0 0 # Mild Stone
+6845 0 0 0 # Natural Fertilizer
+6847 0 0 0 # Tiny Box
+6848 0 0 0 # Light Box
+6849 0 0 0 # Quest Completion Certificate
+6850 0 0 0 # Suspicious Box
+6851 0 0 0 # Suspicious Document
+6852 0 0 0 # Super Neutralizer
+6853 0 0 0 # Gratitude Bouquet
+6854 0 0 0 # Captured Novus
+6855 0 0 0 # Captured Tatacho
+6856 0 0 0 # Manuscript Written by Pilgrim
+6857 0 0 0 # Solid Stone
+6858 0 0 0 # Captured Lude
+6859 0 0 0 # Captured Wanderman
+6860 0 0 0 # Piece of Cow Soul
+6862 0 0 0 # Piece of Tiger Soul
+6863 0 0 0 # Strong Piece of Tiger Soul
+6866 0 0 0 # Piece of Rabbit Soul
+6867 0 0 0 # Big Bugbox
+6868 0 0 0 # Medium Bugbox
+6869 0 0 0 # Dust
+6885 0 0 0 # Piece of Dragon Soul
+6886 0 0 0 # Strong Piece of Dragon Soul
+6904 0 0 0 # Piece of Snake Soul
+6907 0 0 0 # Piece of Horse Soul
+6912 0 0 0 # Piece of Sheep Soul
+6913 0 0 0 # Sacred Rosary
+6914 0 0 0 # Black Soul
+6915 0 0 0 # Captured Soul
+6916 0 0 0 # Piece of Monkey Soul
+6917 0 0 0 # Piece of Chicken Soul
+6919 0 0 0 # Token of Honor
+6923 0 0 0 # Bright Light
+6925 0 0 0 # Prisoner's Letter
+6926 0 0 0 # Rune-Midgards History Book
+6927 0 0 0 # Ocean Contained Stone
+6928 0 0 0 # Poring Scourer
+6929 0 0 0 # Seal Stamped Letter
+6930 0 0 0 # Sample of New Project Item
+6931 0 0 0 # Top Secret Document
+6932 0 0 0 # Rare Tome
+6933 0 0 0 # Party Invitation
+6934 0 0 0 # Fabulous Cuisine
+6935 0 0 0 # Luxury Plate
+6954 0 0 0 # Piece of Dog Soul
+6955 0 0 0 # Piece of Pig Soul
+6956 0 0 0 # Captured Sheep
+6957 0 0 0 # Soft Wool
+6959 0 0 0 # Costume Change Ticket
+6995 0 0 0 # Warm Stone
+6996 0 0 0 # Rabbit Doll
+6997 0 0 0 # Old Arrow
+7059 0 0 0 # Free Ticket for Kafra Storage
+7060 0 0 0 # Free Ticket for Kafra Transportation
+7061 0 0 0 # Free Ticket for the Cart Service
+7177 0 0 0 # Crumb of Sobbing Starlight
+7178 0 0 0 # Sobbing Starlight
+7199 0 0 0 # 13th Anniversary Coin
+7253 0 0 0 # Golden Korean Flag
+7275 0 0 0 # Record of Ancient Language
+7276 0 0 0 # Doodled Message
+7304 0 0 0 # Witch's Spell Scroll
+7305 0 0 0 # Symbol of the Nine Realms
+7306 0 0 0 # Piece of Spirit
+7307 0 0 0 # Spiritual Whispers
+7308 0 0 0 # Witch's Tonic
+7309 0 0 0 # Crow Wing
+7314 0 0 0 # The Sign
+7332 0 0 0 # Complete Tablet
+7333 0 0 0 # Prontera Tablet
+7334 0 0 0 # Payon Tablet
+7335 0 0 0 # Morocc Tablet
+7336 0 0 0 # Geffen Tablet
+7339 0 0 0 # Commemorative Travel Card
+7341 0 0 0 # Old Pendant
+7342 0 0 0 # File Folder
+7343 0 0 0 # Sealed File Folder
+7344 0 0 0 # Shinokas Case File
+7346 0 0 0 # Ymir's Heart Piece
+7349 0 0 0 # Archive Permit
+7351 0 0 0 # Friend's Diary
+7368 0 0 0 # Lotto Ball 08
+7420 0 0 0 # Skull
+7421 0 0 0 # Red Key
+7422 0 0 0 # Yellow Key
+7423 0 0 0 # Blue Key
+7424 0 0 0 # Green Key
+7425 0 0 0 # Black Key
+7426 0 0 0 # Red Charm Stone
+7427 0 0 0 # Yellow Charm Stone
+7428 0 0 0 # Blue Charm Stone
+7429 0 0 0 # Green Charm Stone
+7430 0 0 0 # Black Charm Stone
+7431 0 0 0 # Pile of Books
+7432 0 0 0 # Leather Pouch
+7484 0 0 0 # Warrior's Symbol
+7485 0 0 0 # Cloud General
+7486 0 0 0 # Wind General
+7487 0 0 0 # Culinary Wine
+7488 0 0 0 # Delivery Package
+7489 0 0 0 # Cottage Key
+7490 0 0 0 # Letter to Elly
+7491 0 0 0 # Steel Box
+7492 0 0 0 # Yellow Keycard
+7493 0 0 0 # Golden Key
+7494 0 0 0 # Luxurious Button
+7495 0 0 0 # Blue Keycard
+7496 0 0 0 # Red Keycard
+7497 0 0 0 # Metal Fragment
+7498 0 0 0 # Rosimier Mansion Keys
+7499 0 0 0 # Family Portrait
+7500 0 0 0 # Woman's Portrait
+7501 0 0 0 # K.H's Letter
+7502 0 0 0 # James's Note
+7503 0 0 0 # Man's Portrait
+7504 0 0 0 # Power Device
+7505 0 0 0 # Toy Key
+7506 0 0 0 # Black Keycard
+7508 0 0 0 # Allysia's Ring
+7514 0 0 0 # Monster Ticket
+7515 0 0 0 # Prize Medal
+7516 0 0 0 # Green Keycard
+7518 0 0 0 # Women's Medal
+7527 0 0 0 # Book About True Life
+7530 0 0 0 # Travel Brochure [Amatsu]
+7531 0 0 0 # Travel Brochure [Kunlun]
+7532 0 0 0 # Travel Brochure [Louyang]
+7533 0 0 0 # Travel Brochure [Ayothaya]
+7534 0 0 0 # Amatsu Completed Photo Album
+7535 0 0 0 # Kunlun Completed Photo Album
+7536 0 0 0 # Louyang Completed Photo Album
+7537 0 0 0 # Ayothaya Completed Photo Album
+7538 0 0 0 # Sand for Work
+7539 0 0 0 # Poring Coin
+7547 0 0 0 # Soccer Ball
+7548 0 0 0 # Soccer Shoes
+7549 0 0 0 # Brazilian Flag
+7550 0 0 0 # 13 June Ticket
+7551 0 0 0 # 18 June Ticket
+7552 0 0 0 # 22 June Ticket
+7553 0 0 0 # Water Lily
+7554 0 0 0 # Striped Candle
+7555 0 0 0 # Green Incense
+7575 0 0 0 # Red Jewel
+7576 0 0 0 # Blue Jewel
+7577 0 0 0 # Yellow Jewel
+7579 0 0 0 # Silk Handkerchief of Zhi Nu
+7580 0 0 0 # Black Bead
+7583 0 0 0 # Heart of Evil
+7584 0 0 0 # Guardian's First Proof
+7585 0 0 0 # Guardian's Second Proof
+7586 0 0 0 # Guardian's Third Proof
+7587 0 0 0 # Guardian's Fourth Proof
+7588 0 0 0 # IPOD Coupon
+7603 0 0 0 # RO Party Invitation Ticket
+7614 0 0 0 # Wrapping Paper
+7618 0 0 0 # Monster Crystal
+7623 0 0 0 # Ticket of Identification
+7625 0 0 0 # Operator's special reward
+7630 0 0 0 # Clean Beach Broom
+7631 0 0 0 # Garbage Residue
+7641 0 0 0 # Cure Box
+7701 0 0 0 # Dragon Soul
+7704 0 0 0 # Broken Thermometer
+7705 0 0 0 # Note of Geologist
+7715 0 0 0 # Hand-made Chocolate Recipe
+7716 0 0 0 # Chocolate Strawberry Recipe
+7717 0 0 0 # Chocolate Tart Recipe
+7722 0 0 0 # Debt Note
+7723 0 0 0 # Diamond of Ruin
+7724 0 0 0 # Forbidden Secret Art
+7725 0 0 0 # Unlucky Emerald
+7726 0 0 0 # Token of King
+7727 0 0 0 # HP Doctor Ticket
+7728 0 0 0 # SP Doctor Ticket
+7729 0 0 0 # Rok Star Badge
+7755 0 0 0 # Research Note
+7759 0 0 0 # Geologist's Report
+7763 0 0 0 # Sticky Herb
+7764 0 0 0 # High Strength Adhesive
+7765 0 0 0 # Baba Yaga's Secret Medicine
+7773 0 0 0 # War Badge
+7801 0 0 0 # Girl's Letter
+7802 0 0 0 # Signature Notebook
+7804 0 0 0 # Octopig's Leg
+7820 0 0 0 # Piece of Morocc Skin
+7826 0 0 0 # Continental Guard Paper
+7827 0 0 0 # Mineral Evals
+7828 0 0 0 # Bravery Badge
+7829 0 0 0 # Valor Badge
+7839 0 0 0 # Crystal Key
+7840 0 0 0 # Valkyrie's Gift
+7841 0 0 0 # Stained Piece of Paper
+7842 0 0 0 # Torn Piece of Paper
+7843 0 0 0 # Old Piece of Paper
+7844 0 0 0 # Burnt Pieces of Paper
+7865 0 0 0 # Gold Pouch
+7866 0 0 0 # Certificate
+7868 0 0 0 # Clear Water
+7876 0 0 0 # Golden Key
+7877 0 0 0 # Red Ring
+7878 0 0 0 # Lusalka's Hair
+7879 0 0 0 # Golden Thread
+7880 0 0 0 # Baba Yaga's Silver Spoon
+7881 0 0 0 # Mystery Magic Book
+7882 0 0 0 # Sharp Branch
+7883 0 0 0 # Wooden Flute
+7895 0 0 0 # Rama5 Book
+7896 0 0 0 # Loykrathong Book
+7897 0 0 0 # Constitution Book
+7898 0 0 0 # VV Strong Balmung
+7899 0 0 0 # Dagger of Psychic
+7900 0 0 0 # Jonathan Family Ring
+7901 0 0 0 # Jillberriel Family Ring
+7902 0 0 0 # Jessur Family Ring
+7903 0 0 0 # Jenoss Family Ring
+7904 0 0 0 # Piano Key
+7906 0 0 0 # Poppy Wreath
+7907 0 0 0 # Thread of the goddess
+7909 0 0 0 # Stolen Cookie
+7910 0 0 0 # Stolen Candy
+7912 0 0 0 # Portable Snowman Machine
+7913 0 0 0 # Battle Test Certificate
+7914 0 0 0 # Ancient Language Document
+7917 0 0 0 # Magic Potion
+7919 0 0 0 # Festival Ticket
+7920 0 0 0 # Hero's Weapon
+7923 0 0 0 # Krathong
+7928 0 0 0 # Brazil National Flag
+7929 0 0 0 # Gold Coin
+7930 0 0 0 # Devil's Cattle Ring
+7949 0 0 0 # Woven Wool
+7950 0 0 0 # Ayothaya Fest Ticket
+7951 0 0 0 # Golden Tulip Flower
+7952 0 0 0 # Gift of Romeo
+7953 0 0 0 # Gift of Juliet
+7954 0 0 0 # Summer Festival Ticket
+7961 0 0 0 # Weapon Exchange Ticket
+7962 0 0 0 # Treasure Map 1
+7963 0 0 0 # Treasure Map 2
+7964 0 0 0 # Treasure Map 3
+7965 0 0 0 # Treasure Map 4
+7966 0 0 0 # Piece of Weird Parchment 1
+7967 0 0 0 # Piece of Weird Parchment 2
+7968 0 0 0 # Piece of Weird Parchment 3
+7969 0 0 0 # Piece of Weird Parchment 4
+9514 0 0 0 # Physical Modification Permit
+9529 0 0 0 # Magical Modification Permit
+9539 0 0 0 # [NotForSale] Blue Potion Box(10)
+9999 0 0 0 # Sweets Snack Pack
+11011 0 0 0 # Varmundt's Note
+11012 0 0 0 # Expedition Report
+11013 0 0 0 # Expedition Report Vol1
+11014 0 0 0 # Expedition Report Vol2
+11015 0 0 0 # Expedition Report Vol3
+11016 0 0 0 # Expedition Report Vol4
+11518 0 0 0 # Novice Blue Potion
+11551 0 0 0 # Savory Herb Salad
+11552 0 0 0 # Apple Carrot Salad
+11553 0 0 0 # Casual Stew
+11554 0 0 0 # Golden Roasted Apple
+11606 0 0 0 # [NotForSale] White Slim Potion
+11614 0 0 0 # Freshly Squeezed Milk
+11615 0 0 0 # Sweet Potato
+12142 0 0 0 # Book of Magic
+12153 0 0 0 # Bowman Scroll 1
+12154 0 0 0 # Bowman Scroll 2
+12155 0 0 0 # Bowman Scroll 3
+12156 0 0 0 # Bowman Scroll 4
+12157 0 0 0 # Bowman Scroll 5
+12158 0 0 0 # Bowman Scroll 6
+12159 0 0 0 # Bowman Scroll 7
+12160 0 0 0 # Bowman Scroll 8
+12161 0 0 0 # Bowman Scroll 9
+12162 0 0 0 # Bowman Scroll 10
+12163 0 0 0 # Fencer Scroll 1
+12164 0 0 0 # Fencer Scroll 2
+12165 0 0 0 # Fencer Scroll 3
+12166 0 0 0 # Fencer Scroll 4
+12167 0 0 0 # Fencer Scroll 5
+12168 0 0 0 # Fencer Scroll 6
+12169 0 0 0 # Fencer Scroll 7
+12170 0 0 0 # Fencer Scroll 8
+12171 0 0 0 # Fencer Scroll 9
+12172 0 0 0 # Fencer Scroll 10
+12173 0 0 0 # Spearman Scroll 1
+12174 0 0 0 # Spearman Scroll 2
+12175 0 0 0 # Spearman Scroll 3
+12176 0 0 0 # Spearman Scroll 4
+12177 0 0 0 # Spearman Scroll 5
+12178 0 0 0 # Spearman Scroll 6
+12179 0 0 0 # Spearman Scroll 7
+12180 0 0 0 # Spearman Scroll 8
+12181 0 0 0 # Spearman Scroll 9
+12182 0 0 0 # Spearman Scroll 10
+12199 0 0 0 # Scroll of Magic
+12258 0 0 0 # Bombring Capsule
+12259 0 0 0 # Miracle Tonic
+12261 0 0 0 # Leap of Fantasy
+12262 0 0 0 # Authoritative Badge
+12263 0 0 0 # [NotForSale] Battle Manual
+12266 0 0 0 # Sesame Pastry
+12267 0 0 0 # Honey Pastry
+12268 0 0 0 # Rainbow Cake
+12274 0 0 0 # Daehwandan
+12275 0 0 0 # Taecheongdan
+12287 0 0 0 # Love Angel Magic Powder
+12288 0 0 0 # Squirrel Magic Powder
+12289 0 0 0 # Gogo Magic Powder
+12294 0 0 0 # PC Cafe Coin Box 1
+12295 0 0 0 # PC Cafe Coin Box 2
+12296 0 0 0 # PC Cafe Coin Box 3
+12297 0 0 0 # PC Cafe Coin Box 4
+12298 0 0 0 # SP Consumption Reduction Potion
+12299 0 0 0 # Mega Resist Potion
+12300 0 0 0 # Wild Rose Contract
+12301 0 0 0 # Doppelganger Contract
+12302 0 0 0 # Egnigem Cenia Contract
+12304 0 0 0 # Diary Magic Powder
+12305 0 0 0 # Mini Heart Magic Powder
+12306 0 0 0 # Freshman Magic Powder
+12307 0 0 0 # Kid Magic Powder
+12308 0 0 0 # Magic Magic Powder
+12309 0 0 0 # JJangu Magic Powder
+12313 0 0 0 # Guardian Angel
+12314 0 0 0 # Adventurer Returns Support Box
+12322 0 0 0 # Chocolate Pie
+12323 0 0 0 # [NotForSale] Novice Fly Wing
+12324 0 0 0 # Novice Butterfly Wing
+12325 0 0 0 # Novice Magnifier
+12331 0 0 0 # Ginseng
+12333 0 0 0 # Ancilla
+12340 0 0 0 # Chewy Rice Powder
+12384 0 0 0 # Rainbow Ruby
+12385 0 0 0 # Rainbow Ruby
+12386 0 0 0 # Rainbow Ruby
+12387 0 0 0 # Rainbow Ruby
+12388 0 0 0 # Trial Rhydo Runestone
+12389 0 0 0 # Trial Pertz Runestone
+12390 0 0 0 # Trial Verkana Runestone
+12398 0 0 0 # PC Cafe Gift Box
+12478 0 0 0 # Box of Opportunity
+12479 0 0 0 # Caracas Ring Box
+12540 0 0 0 # Operator Warp Box
+12541 0 0 0 # Fortune Cookie
+12542 0 0 0 # Fortune Cookie
+12543 0 0 0 # Fortune Cookie
+12567 0 0 0 # Cheering Scarf Box
+12568 0 0 0 # Cheering Scarf Box
+12569 0 0 0 # Cheering Scarf Box
+12570 0 0 0 # Cheering Scarf Box
+12571 0 0 0 # Cheering Scarf Box
+12572 0 0 0 # Cheering Scarf Box
+12579 0 0 0 # Valkyrie Ring Box
+12583 0 0 0 # Public Relations Box
+12584 0 0 0 # Development Team Box
+12585 0 0 0 # Marketing Team Box
+12586 0 0 0 # Operation Team Box
+12587 0 0 0 # A Summer Night's Box
+12588 0 0 0 # A Summer Night's Box
+12589 0 0 0 # A Summer Night's Box
+12600 0 0 0 # Treasure Chest Summon Book
+12607 0 0 0 # Delicious Lollipop Box
+12622 0 0 0 # Boarding Halter
+12649 0 0 0 # Level 70 Bounty
+12650 0 0 0 # Level 90 Bounty
+12651 0 0 0 # Level 110 Bounty
+12652 0 0 0 # Level 130 Bounty
+12653 0 0 0 # Level 150 Bounty
+12672 0 0 0 # New Beginning Box
+12715 0 0 0 # Black Treasure Chest
+12740 0 0 0 # Amplification Scroll
+12741 0 0 0 # Intellect Amplification Scroll
+12745 0 0 0 # Vivid Notation
+12766 0 0 0 # [NotForSale] JOB Battle Manual
+12802 0 0 0 # Guardian of Time Box
+12803 0 0 0 # Novice Support Box
+12807 0 0 0 # Mercenary Summoning Bundle
+12808 0 0 0 # Mother's Gentle Heart Box
+12809 0 0 0 # Level Up box
+12810 0 0 0 # Event Gift Box
+12816 0 0 0 # Old Ore Box
+12817 0 0 0 # Old Card Album
+12818 0 0 0 # Advanced Weapon Box
+12819 0 0 0 # Zherlthsh Exchange Ticket Box
+12845 0 0 0 # Amatsu Butterfly Wing
+12847 0 0 0 # Old Equipment Box
+12863 0 0 0 # Treasure Chest Summoned II
+12884 0 0 0 # Infinite Concentration Potion
+12885 0 0 0 # Infinite Awakening Potion
+12886 0 0 0 # Infinite Berserk Potion
+12887 0 0 0 # Infinite Fly Wing
+12888 0 0 0 # Siege Support Box
+13020 0 0 0 # Warrior's Balmung
+13021 0 0 0 # Combat Knife
+13022 0 0 0 # Dagger of Counter
+13023 0 0 0 # Asura
+13024 0 0 0 # Swordbreaker
+13025 0 0 0 # Mailbreaker
+13026 0 0 0 # Moonlight Sword
+13036 0 0 0 # Brave Assassin's Damascus
+13037 0 0 0 # Valorous Assassin's Damascus
+13042 0 0 0 # Glorious Gladius
+13043 0 0 0 # Fortune Sword
+13044 0 0 0 # Ice Pick
+13045 0 0 0 # Kamaitachi
+13048 0 0 0 # Damascus
+13050 0 0 0 # Eden Dagger I
+13051 0 0 0 # Eden Dagger II
+13052 0 0 0 # Traveler's Dagger
+13066 0 0 0 # Eden Dagger III
+13068 0 0 0 # Saurel
+13074 0 0 0 # Ninja Cutter
+13079 0 0 0 # Metal Dagger
+13083 0 0 0 # TE WoE Knife
+13108 0 0 0 # Soldier Revolver
+13109 0 0 0 # Wasteland's Outlaw
+13110 0 0 0 # Glorious Pistol
+13111 0 0 0 # Sharpshooter Revolver
+13112 0 0 0 # Eden Revolver I
+13113 0 0 0 # Eden Revolver II
+13114 0 0 0 # Eden Revolver III
+13117 0 0 0 # TE WoE Gun
+13118 0 0 0 # Fading Flame
+13125 0 0 0 # Metal Revolver
+13132 0 0 0 # Enhanced Metal Revolver
+13136 0 0 0 # Trial Rebel's Revolver
+13144 0 0 0 # Beginner Rebel's Revolver
+13171 0 0 0 # Soldier Rifle
+13172 0 0 0 # Soldier Gatling Gun
+13173 0 0 0 # Soldier Shotgun
+13174 0 0 0 # Soldier Grenade Launcher
+13175 0 0 0 # Lever Action Rifle
+13176 0 0 0 # Glorious Rifle
+13177 0 0 0 # Glorious Gatling Gun
+13178 0 0 0 # Glorious Shotgun
+13179 0 0 0 # Glorious Grenade Launcher
+13184 0 0 0 # TE WoE Rifle
+13185 0 0 0 # TE WoE Gatling Gun
+13186 0 0 0 # TE WoE Shotgun
+13187 0 0 0 # TE WoE Grenade Launcher
+13295 0 0 0 # Light Shuriken
+13305 0 0 0 # Brave Huuma Front Shuriken
+13306 0 0 0 # Valorous Huuma Front Shuriken
+13307 0 0 0 # Glorious Shuriken
+13308 0 0 0 # Huuma Blaze Shuriken
+13309 0 0 0 # Huuma Giant Wheel Shuriken
+13310 0 0 0 # Eden Huuma Shuriken I
+13312 0 0 0 # Huuma Job Test
+13317 0 0 0 # TE WoE Huuma Shuriken
+13322 0 0 0 # Huuma Metal Shuriken
+13330 0 0 0 # Enhanced Metal Huuma Shuriken
+13336 0 0 0 # Trial Ninja's Huuma Shuriken
+13341 0 0 0 # Beginner Kagerou&Oboro's Huuma Shuriken
+13401 0 0 0 # Excalibur
+13402 0 0 0 # Cutlas
+13403 0 0 0 # Solar Sword
+13407 0 0 0 # Nagan
+13408 0 0 0 # Fire Brand
+13409 0 0 0 # Immaterial Sword
+13410 0 0 0 # Valorous Gladiator's Blade
+13411 0 0 0 # Brave Gladiator's Blade
+13416 0 0 0 # Glorious Flamberge
+13417 0 0 0 # Glorious Rapier
+13418 0 0 0 # Glorious Holy Avenger
+13419 0 0 0 # Holy Saber
+13422 0 0 0 # Flamberge
+13423 0 0 0 # Eden Saber I
+13424 0 0 0 # Eden Saber II
+13425 0 0 0 # Traveler's Sword
+13434 0 0 0 # Eden Saber III
+13439 0 0 0 # TE WoE Sword
+13483 0 0 0 # Beginner Genetic's Sword
+13495 0 0 0 # Sealed Red Lotus Sword
+13763 0 0 0 # PC Cafe Premium Anniversary Coin Box
+13765 0 0 0 # Fully Closed Certificate
+13859 0 0 0 # Directive Envelope A
+13860 0 0 0 # Directive Envelope B
+14425 0 0 0 # Pagdayaw Box
+14467 0 0 0 # Carnival Hat Box
+14468 0 0 0 # Carnival Circlet Box
+14470 0 0 0 # Nightmare Terror Exchange Coupon Box
+14471 0 0 0 # Loli Ruri Exchange Coupon Box
+14472 0 0 0 # Goblin Leader Exchange Coupon Box
+14473 0 0 0 # Incubus Exchange Coupon Box
+14474 0 0 0 # Miyabi Doll Exchange Coupon Box
+14475 0 0 0 # Giant Whisper Exchange Coupon Box
+14476 0 0 0 # Evil Nymph Exchange Coupon Box
+14477 0 0 0 # Medusa Exchange Coupon Box
+14478 0 0 0 # Stone Shooter Exchange Coupon Box
+14479 0 0 0 # Marionette Exchange Coupon Box
+14480 0 0 0 # Leaf Cat Exchange Coupon Box
+14481 0 0 0 # Dullahan Exchange Coupon Box
+14482 0 0 0 # Shinobi Exchange Coupon Box
+14483 0 0 0 # Golem Exchange Coupon Box
+14484 0 0 0 # Civil Servant Exchange Coupon Box
+14505 0 0 0 # 1 Hour Dungeon Ticket
+14506 0 0 0 # Dungeon Ticket
+14529 0 0 0 # Greed Scroll
+14595 0 0 0 # Unsealed Magic Spell
+14799 0 0 0 # [7Days]Battle Manual & Bubble Gum
+14908 0 0 0 # [NotForSale] Korea Rice Cake
+15001 0 0 0 # Odin's Blessing
+15002 0 0 0 # Rune Plate
+15009 0 0 0 # Eden Group Uniform I
+15010 0 0 0 # Eden Group Uniform II
+15011 0 0 0 # Eden Group Uniform III
+15023 0 0 0 # Half Brynhild
+15031 0 0 0 # Eden Group Uniform IV
+15033 0 0 0 # Tutorial Mantle
+15034 0 0 0 # Tutorial Mantle
+15062 0 0 0 # TE WoE Coat
+15063 0 0 0 # TE WoE Chain Mail
+15064 0 0 0 # TE WoE Mink Coat
+15067 0 0 0 # Rune Suit
+15210 0 0 0 # Rental Surfer Swimsuit
+15247 0 0 0 # Short-term Hunting Mail
+15250 0 0 0 # Beginner's Suit
+15383 0 0 0 # Temporal Transcendent Robe
+15410 0 0 0 # High Adventurer Suit
+16002 0 0 0 # Stunner
+16004 0 0 0 # Eden Mace I
+16005 0 0 0 # Eden Mace II
+16006 0 0 0 # Traveler's Mace
+16014 0 0 0 # Eden Mace III
+16016 0 0 0 # Tuna
+16023 0 0 0 # Metal Mace
+16025 0 0 0 # TE WoE Mace
+16054 0 0 0 # Enhanced Metal Mace
+16064 0 0 0 # Trial Genetic's Mace
+16075 0 0 0 # Beginner Mechanic's Mace
+16076 0 0 0 # Beginner Super Novice's Mace
+16405 0 0 0 # Midgard Coin Box
+16406 0 0 0 # Midgard Coin Box
+17881 0 0 0 # 2017 Ragnarok RTC Participaton Box
+18100 0 0 0 # Shooting Star
+18106 0 0 0 # Eden Bow III
+18107 0 0 0 # Malang Snow Crab
+18108 0 0 0 # Spotty Eel
+18116 0 0 0 # Metal Bow
+18118 0 0 0 # TE WoE Bow
+18141 0 0 0 # Enhanced Metal Bow
+18150 0 0 0 # Trail Ranger' Crossbow
+18151 0 0 0 # Trail Wanderers & Minstrel's Bow
+18165 0 0 0 # Beginner Ranger's Bow
+18166 0 0 0 # Beginner Wanderer & Minstrels' Bow
+18182 0 0 0 # Sealed Royal Bow
+18183 0 0 0 # Sealed Narcissus Bow
+18500 0 0 0 # Cheering Scarf VI
+18501 0 0 0 # Cheering Scarf VIII
+18502 0 0 0 # Cheering Scarf X
+18505 0 0 0 # Umbala Spirit
+18514 0 0 0 # Eden Group Hat II
+18526 0 0 0 # Delicious Lollipop
+18556 0 0 0 # Angel's Symbol
+18557 0 0 0 # Devil's Symbol
+18566 0 0 0 # Nut Donut in Mouth
+18731 0 0 0 # Valkyrie Randgris Helm
+18732 0 0 0 # TE WoE Cap
+18733 0 0 0 # TE WoE Bone Helm
+18734 0 0 0 # TE WoE Magic Eyes
+19052 0 0 0 # Sigrun's Wings
+19218 0 0 0 # Time Keeper Glasses
+19275 0 0 0 # Rental Scuba Mask
+19310 0 0 0 # Beginner's Hat
+19389 0 0 0 # Advanced Oxygen Mask
+19404 0 0 0 # Biting Rideword
+19853 0 0 0 # Costume Filir Wings
+20135 0 0 0 # Costume 12th Anniversary Crown
+20136 0 0 0 # Costume 12th Anniversary Fairy Ears
+20575 0 0 0 # Costume Beginner Black Backpack
+20595 0 0 0 # Costume Beginner Red Backpack
+20615 0 0 0 # Costume Beginner Blue Backpack
+20616 0 0 0 # Costume Beginner Purple Backpack
+20702 0 0 0 # TE WoE Muffler
+20703 0 0 0 # TE WoE Manteau
+20704 0 0 0 # TE WoE Magic Manteau
+20709 0 0 0 # Manteau of Mana
+20855 0 0 0 # Costume Oxygen Tank
+20903 0 0 0 # Short-term Hunting Manteau
+20906 0 0 0 # Beginner's Manteau
+20939 0 0 0 # Temporal Transcendence Manteau
+20953 0 0 0 # High Adventurer Hood
+21005 0 0 0 # Metal Two-Handed Sword
+21006 0 0 0 # TE WoE Two-Handed Sword
+21023 0 0 0 # Enhanced Metal Two-Handed Sword
+21030 0 0 0 # Trial Rune Knight's Two-Handed Sword
+21037 0 0 0 # Beginner Rune Knight's Two-Handed Sword
+21049 0 0 0 # Sealed Eastern Sword
+22012 0 0 0 # Boots of Mana
+22169 0 0 0 # Short-term Hunting Boots
+22173 0 0 0 # Beginner's Boots
+22204 0 0 0 # Temporal Transcendence Boots
+22215 0 0 0 # High Adventurer Sandals
+22508 0 0 0 # Eden Group Token
+22513 0 0 0 # King of Gift Box
+22517 0 0 0 # Loki Summoning Scroll
+22521 0 0 0 # Level-Up Box(80)
+22522 0 0 0 # Level-Up Box(100)
+22523 0 0 0 # Level-Up Box(120)
+22524 0 0 0 # Level-Up Box(130)
+22525 0 0 0 # Level-Up Box(140)
+22526 0 0 0 # Level-Up Box(150)
+22527 0 0 0 # Level-Up Box(160)
+22533 0 0 0 # New Year Gift Box
+22535 0 0 0 # Scroll Summoning Workers(Male)
+22536 0 0 0 # Scroll Summoning Workers(Female)
+22566 0 0 0 # Frost Crystal
+22569 0 0 0 # New Year Gift
+22589 0 0 0 # Savage Ora Ora
+22590 0 0 0 # Grand Peco Ora Ora
+22591 0 0 0 # Desert Wolf Ora Ora
+22592 0 0 0 # Happy Call Box
+22610 0 0 0 # New Beginning Box
+22614 0 0 0 # Premium Manual
+22619 0 0 0 # Ghost Scroll
+22623 0 0 0 # New Start Box
+22691 0 0 0 # Record Fragment
+22692 0 0 0 # Record Fragment
+22693 0 0 0 # Record Fragment
+22694 0 0 0 # Record Fragment
+22695 0 0 0 # Record Fragment
+22700 0 0 0 # Jumping Support Box
+22708 0 0 0 # Exciting Box
+22717 0 0 0 # Wanderer Ball
+22718 0 0 0 # Lude Ball
+22719 0 0 0 # Tatacho Ball
+22720 0 0 0 # Novus Ball
+22734 0 0 0 # Revolution Quiz Box
+22760 0 0 0 # Argiope Capture Box
+22761 0 0 0 # Luciola Vespa Capture Box
+22762 0 0 0 # Centipede Capture Box
+22807 0 0 0 # (unknown name)
+22837 0 0 0 # Time Integer
+22869 0 0 0 # Lucky Roulette Ticket
+22881 0 0 0 # Hunting Rope
+22887 0 0 0 # Gold PC Cafe Box
+22894 0 0 0 # [Limited] 2015 Neutralizer Rod
+22895 0 0 0 # [Limited] 2015 Reset Coupon
+22896 0 0 0 # [Limited] Old Reset stats coupon
+22901 0 0 0 # Mysterious Blue Box
+22907 0 0 0 # Edward Zonda Owner
+22908 0 0 0 # Elysee Zonda Owner
+22914 0 0 0 # Bubble Gum 24h
+22929 0 0 0 # Job Battle Manual 24h
+22982 0 0 0 # Edward Zonda Owner EX
+22983 0 0 0 # Elysee Zonda Owner EX
+22997 0 0 0 # Infinite Greed Scroll
+22998 0 0 0 # Infinite Cat Hand Ticket
+23008 0 0 0 # Bubble Gum 24 Hours
+23010 0 0 0 # Battle Manual 24 Hours
+23011 0 0 0 # Insurance Certificate 24 Hours
+23021 0 0 0 # 15th Anniversary Box
+23022 0 0 0 # Cross Event Box
+23023 0 0 0 # Infinite Giant Flywing
+23025 0 0 0 # Pope Mercenary Summoner
+23026 0 0 0 # Casual Pope Mercenary Summoner
+23028 0 0 0 # Capture Rope
+23036 0 0 0 # Pope Mercenary Summoner
+23037 0 0 0 # Casual Pope Mercenary Summoner
+23062 0 0 0 # Cooking Open Memorial Box
+23063 0 0 0 # Frozen Dream
+23087 0 0 0 # Small Leather Bag
+23097 0 0 0 # Greater Time Guardian Box
+23098 0 0 0 # Shadow Assortment Box
+23137 0 0 0 # Rebellion Jumping Support Box
+23267 0 0 0 # Level-Up Box(1)
+23268 0 0 0 # Level-Up Box(10)
+23269 0 0 0 # Level-Up Box(20)
+23270 0 0 0 # Level-Up Box(30)
+23271 0 0 0 # Level-Up Box(40)
+23272 0 0 0 # Level-Up Box(50)
+23273 0 0 0 # Level-Up Box(60)
+23274 0 0 0 # Level-Up Box(70)
+23275 0 0 0 # Level-Up Box(90)
+23276 0 0 0 # Level-Up Box(175)
+23278 0 0 0 # Help me Shorty
+23280 0 0 0 # Novice Fly Wing
+23296 0 0 0 # D. Burger
+23325 0 0 0 # Beginner Level Up Package
+23328 0 0 0 # Asha Bahishta
+23338 0 0 0 # [NotForSale] Fly Wing
+23348 0 0 0 # Part-time Student Sales(Novice) Employment Certificate
+23349 0 0 0 # Part-time Student Sales(Normal) Employment Certificate
+23350 0 0 0 # Part-time Student Sales(Expert) Employment Certificate
+23351 0 0 0 # Part-time Student Buyer(Novice) Employment Certificate
+23352 0 0 0 # Part-time Student Buyer(Normal) Employment Certificate
+23353 0 0 0 # Part-time Student Buyer(Expert) Employment Certificate
+23362 0 0 0 # Pork Potato
+23363 0 0 0 # Watermelon Pudding
+23364 0 0 0 # Critatura Pope Cookie
+23365 0 0 0 # Critatura Souvenir Box
+23446 0 0 0 # Wild Boar Trap
+23484 0 0 0 # First Aid Box(5)
+23485 0 0 0 # First Aid Box(10)
+23486 0 0 0 # First Aid Box(15)
+23487 0 0 0 # First Aid Box(20)
+23488 0 0 0 # First Aid Box(25)
+23489 0 0 0 # First Aid Box(30)
+23490 0 0 0 # First Aid Box(35)
+23491 0 0 0 # First Aid Box(40)
+23492 0 0 0 # First Aid Box(45)
+23493 0 0 0 # First Aid Box(50)
+23494 0 0 0 # First Aid Box(55)
+23495 0 0 0 # First Aid Box(60)
+23496 0 0 0 # First Aid Box(65)
+23497 0 0 0 # First Aid Box(70)
+23498 0 0 0 # First Aid Box(75)
+23499 0 0 0 # First Aid Box(80)
+23500 0 0 0 # First Aid Box(85)
+23501 0 0 0 # First Aid Box(90)
+23502 0 0 0 # First Aid Box(95)
+23503 0 0 0 # [NotForSale] Red Potion Box(20)
+23504 0 0 0 # [NotForSale] Orange Potion Box(20)
+23505 0 0 0 # [NotForSale] Yellow Potion Box(20)
+23506 0 0 0 # [NotForSale] White Potion Box(20)
+23575 0 0 0 # Adventurer Support Box(1)
+23576 0 0 0 # Adventurer Support Box(15)
+23577 0 0 0 # Adventurer Support Box(30)
+23578 0 0 0 # Adventurer Support Box(45)
+23579 0 0 0 # Adventurer Support Box(60)
+23580 0 0 0 # Adventurer Support Box(75)
+23581 0 0 0 # Adventurer Support Box(90)
+23582 0 0 0 # [NotForSale] Infinite Fly Wing Box(7 Days)
+23583 0 0 0 # Beginner's Armor Box
+23584 0 0 0 # Beginner's Shadow Box
+23585 0 0 0 # Beginner Support Box(100)
+23586 0 0 0 # Beginner Support Box(110)
+23587 0 0 0 # Beginner Support Box(120)
+23647 0 0 0 # Tool Dealer Bell
+23648 0 0 0 # Kafra Storage Bell
+23683 0 0 0 # Lucky Bag
+23771 0 0 0 # Mysterious Plastic Bag
+23772 0 0 0 # OS Weapon Box
+23773 0 0 0 # Weapon Modification Device Box(Physical)
+23774 0 0 0 # Weapon Modification Device Box(Magic)
+23775 0 0 0 # Modification Module Box
+23897 0 0 0 # 2018 Jumping Reservation Appreciation Box
+23900 0 0 0 # Temporal Transcendence Box
+23901 0 0 0 # Level-Up Box(110)
+23905 0 0 0 # March Event Reward Box
+23906 0 0 0 # April Event Reward Box
+23907 0 0 0 # Melon Festival Reward Box
+23921 0 0 0 # Event Prize Box
+23985 0 0 0 # Dragon Treasure
+23986 0 0 0 # Odin Relics
+24387 0 0 0 # Beginner's Shadow Armor
+24388 0 0 0 # Beginner's Shadow Shield
+24389 0 0 0 # Beginner's Shadow Shoes
+24390 0 0 0 # Beginner's Shadow Weapon
+24391 0 0 0 # Beginner's Shadow Earring
+24392 0 0 0 # Beginner's Shadow Pendant
+24416 0 0 0 # Temporal Transcendent Shadow Weapon
+24417 0 0 0 # Temporal Transcendent Shadow Armor
+24418 0 0 0 # Temporal Transcendent Shadow Shield
+24419 0 0 0 # Temporal Transcendent Shadow Shoes
+24420 0 0 0 # Temporal Transcendent Shadow Earring
+24421 0 0 0 # Temporal Transcendent Shadow Pendant
+24584 0 0 0 # Booster Shadow Armor
+24585 0 0 0 # Booster Shadow Shield
+24586 0 0 0 # Booster Shadow Shoes
+24587 0 0 0 # Booster Shadow Earring
+24588 0 0 0 # Booster Shadow Pendant
+24589 0 0 0 # Rune Knight's Booster Shadow Weapon
+24590 0 0 0 # Royal Guard's Booster Shadow Weapon
+24591 0 0 0 # Mechanic's Booster Shadow Weapon
+24592 0 0 0 # Genetic's Booster Shadow Weapon
+24593 0 0 0 # Guillotine Cross' Booster Shadow Weapon
+24594 0 0 0 # Shadow Chaser's Booster Shadow Weapon
+24595 0 0 0 # Warlock's Booster Shadow Weapon
+24596 0 0 0 # Sorcerer's Booster Shadow Weapon
+24597 0 0 0 # Archbishop's Booster Shadow Weapon
+24598 0 0 0 # Sura's Booster Shadow Weapon
+24599 0 0 0 # Ranger's Booster Shadow Weapon
+24600 0 0 0 # Minstrel&Wanderer's Booster Shadow Weapon
+24684 0 0 0 # Super Novice Booster Shadow Weapon
+24687 0 0 0 # Paradise Shadow Weapon
+24688 0 0 0 # Paradise Shadow Shield
+24689 0 0 0 # Paradise Shadow Armor
+24690 0 0 0 # Paradise Shadow Shoes
+24691 0 0 0 # Paradise Shadow Earring
+24692 0 0 0 # Paradise Shadow Pendant
+24693 0 0 0 # Advanced Paradise Shadow Shield
+24694 0 0 0 # Advanced Paradise Shadow Armor
+24695 0 0 0 # Advanced Paradise Shadow Shoes
+24696 0 0 0 # Advanced Paradise Shadow Earring
+24697 0 0 0 # Advanced Paradise Shadow Pendant
+24698 0 0 0 # Rune Knight Advanced Paradise Shadow Weapon
+24699 0 0 0 # Royal Guard Advanced Paradise Shadow Weapon
+24700 0 0 0 # Mechanic Advanced Paradise Shadow Weapon
+24701 0 0 0 # Genetic Advanced Paradise Shadow Weapon
+24702 0 0 0 # Guillotine Cross Advanced Paradise Shadow Weapon
+24703 0 0 0 # Shadow Chaser Advanced Paradise Shadow Weapon
+24704 0 0 0 # Warlock Advanced Paradise Shadow Weapon
+24705 0 0 0 # Sorcerer Advanced Paradise Shadow Weapon
+24706 0 0 0 # Archbishop Advanced Paradise Shadow Weapon
+24707 0 0 0 # Sura Advanced Paradise Shadow Weapon
+24708 0 0 0 # Ranger Advanced Paradise Shadow Weapon
+24709 0 0 0 # Wanderer&Minstrel Advanced Paradise Shadow Weapon
+24710 0 0 0 # Kagerou&Oboro Advanced Paradise Shadow Weapon
+24711 0 0 0 # Rebellion Advanced Paradise Shadow Weapon
+24712 0 0 0 # Star Emperor Advanced Paradise Shadow Weapon
+24713 0 0 0 # Soul Reaper Advanced Paradise Shadow Weapon
+24714 0 0 0 # Doram Advanced Paradise Shadow Weapon
+24715 0 0 0 # Super Novice Advanced Paradise Shadow Weapon
+24739 0 0 0 # Summoner Booster Shadow Weapon
+24740 0 0 0 # Star Emperor Booster Shadow Weapon
+24741 0 0 0 # Kagerou & Oboro Booster Shadow Weapon
+24742 0 0 0 # Rebellion Booster Shadow Weapon
+24743 0 0 0 # Soul Reaper Booster Shadow Weapon
+24744 0 0 0 # Super Novice Booster Shadow Weapon
+25038 0 0 0 # Broken Trap
+25039 0 0 0 # Capture Trap
+25043 0 0 0 # Thorny Vine Flute
+25045 0 0 0 # Luxury Cloth Piece
+25046 0 0 0 # Boarding Permit
+25047 0 0 0 # Kalugna
+25048 0 0 0 # Hearty Lunch Box
+25049 0 0 0 # Basil Rock
+25051 0 0 0 # Token of Union
+25073 0 0 0 # Old Papyrus
+25074 0 0 0 # Old Coin
+25075 0 0 0 # Admiral's Sword
+25076 0 0 0 # Coursera
+25077 0 0 0 # Knight Supply
+25078 0 0 0 # Ha Soju
+25079 0 0 0 # Last Breath
+25080 0 0 0 # Fox Bead
+25083 0 0 0 # Silky Hair of Rabbit
+25084 0 0 0 # Captured Rabbit
+25085 0 0 0 # Rabbit's Hair
+25086 0 0 0 # Ribbon for Gift wrapping
+25087 0 0 0 # Old Doll
+25089 0 0 0 # Ornament Wings Gift
+25132 0 0 0 # Pumpkin Decoration
+25133 0 0 0 # Seasoned White Stem
+25143 0 0 0 # Stuffed Doll Gift
+25144 0 0 0 # Bridge Postured Doll
+25145 0 0 0 # Burned Black Demon Doll
+25146 0 0 0 # Cold Blooded Queen Doll
+25147 0 0 0 # Well Eaten Rabbit Doll
+25148 0 0 0 # Cute Starved Demon Doll
+25149 0 0 0 # Doll With Warm Shawl
+25150 0 0 0 # Hugging Alice Pilow
+25151 0 0 0 # Rachel's Revolver
+25152 0 0 0 # Tribute Bouquet
+25153 0 0 0 # Broken Gun Scrap
+25155 0 0 0 # Schwartzvald Token of Honor
+25160 0 0 0 # Borrowed Book
+25161 0 0 0 # Homemade Cookie
+25162 0 0 0 # Anchovy Cookie
+25163 0 0 0 # Arms Shop Flyer
+25164 0 0 0 # Fresh Tea Leaf
+25165 0 0 0 # Fine Tea
+25166 0 0 0 # Shiny Ring
+25167 0 0 0 # Old Letter
+25169 0 0 0 # Sticky Mucus
+25179 0 0 0 # Star of Blessing
+25180 0 0 0 # A pair of Old Rings
+25181 0 0 0 # Wooden Rosary
+25182 0 0 0 # Assassin Dagger with Glyph
+25183 0 0 0 # Bow Thimble Decoration
+25184 0 0 0 # Portable Sewing Kit
+25185 0 0 0 # Locket Pendant
+25188 0 0 0 # Girl's Handkerchief
+25200 0 0 0 # Fluffy Cloud
+25201 0 0 0 # Miracle Claw
+25218 0 0 0 # Tree Branch
+25219 0 0 0 # Window Paper
+25220 0 0 0 # Moonlight Lotus
+25221 0 0 0 # Moon Fragrance
+25222 0 0 0 # Window Paper with moon pattern
+25245 0 0 0 # Pile of Small Bones
+25253 0 0 0 # Box of Sugar
+25260 0 0 0 # Purple Ore Fragment
+25268 0 0 0 # Sticky Blood
+25269 0 0 0 # Mushroom Sap
+25270 0 0 0 # Wavy Mane
+25287 0 0 0 # Mystical Feather
+25291 0 0 0 # Product Chocolate
+25295 0 0 0 # Happy Three Leaf Clover
+25296 0 0 0 # Something Fatal
+25307 0 0 0 # Late Lang Monster Ticket
+25309 0 0 0 # Dry Twig
+25315 0 0 0 # Piece of Turtle Shell
+25316 0 0 0 # Old Metal Piece
+25319 0 0 0 # Cold Box
+25344 0 0 0 # Flat and Round Stones
+25358 0 0 0 # Data Recovery Card
+25359 0 0 0 # Little old Box
+25360 0 0 0 # Receipt
+25365 0 0 0 # Elongated Noodles
+25366 0 0 0 # Noodle Festival Coin
+25367 0 0 0 # Promotional fan
+25378 0 0 0 # Tightly Sealed Letter
+25379 0 0 0 # Tightly Sealed Letter
+25380 0 0 0 # Special Dragon Beard Noodles
+25381 0 0 0 # Direct Fire Breath Dumblings
+25382 0 0 0 # Dragon Head Cookies
+25383 0 0 0 # Beard Candy
+25390 0 0 0 # Caught Wild Boar
+25391 0 0 0 # Quality Twig
+25392 0 0 0 # Ticket to anywhere
+25393 0 0 0 # Delicious Corn
+25394 0 0 0 # Lunch Box
+25395 0 0 0 # Small Embers
+25401 0 0 0 # Black Fur
+25408 0 0 0 # Scatleton Memory
+25421 0 0 0 # Decorative Pumpkin
+25422 0 0 0 # Dried White Thin Stem
+25425 0 0 0 # Magical Snow Flower
+25426 0 0 0 # Warm Cotton
+25427 0 0 0 # Beginner's Equipment Exchange Voucher
+25428 0 0 0 # Beginner's Safe to 7 Weapon Certificate
+25479 0 0 0 # DOG Vial
+25504 0 0 0 # Illusion Seal
+25511 0 0 0 # Chocolate Plate
+25512 0 0 0 # Almond
+25643 0 0 0 # Signed Book
+25656 0 0 0 # Stamped Notebook
+25657 0 0 0 # Though Noodles
+25658 0 0 0 # Noodle Sap
+25659 0 0 0 # Organic Flour
+25664 0 0 0 # Ribbon Noodles
+25665 0 0 0 # Dien's Precious Envelope
+25666 0 0 0 # Identification bracelet for specimen
+25734 0 0 0 # Sealed Weapon Exchange Ticket
+25735 0 0 0 # Ancient Hero's Seal-Year
+25820 0 0 0 # Metal Weapon Exchange Ticket
+25841 0 0 0 # Smooth Noodles
+25898 0 0 0 # Searud's Fishing Rod
+25924 0 0 0 # Booster Costume Enchantment Ticket
+26001 0 0 0 # Enhanced Metal Lance
+26015 0 0 0 # Beginner Royal Guard's Lance
+26100 0 0 0 # Eden Foxtail II
+26101 0 0 0 # Eden Foxtail III
+26111 0 0 0 # Metal Foxtail
+26112 0 0 0 # Trial Summoner's Foxtail
+26119 0 0 0 # Beginner Sorcerer's Staff
+26120 0 0 0 # Beginner Summoner's Foxtail
+26156 0 0 0 # Sealed Shadow Staff
+28015 0 0 0 # Enhanced Metal Katar
+28024 0 0 0 # Trial Guillotine Cross's Katar
+28027 0 0 0 # Beginner Guillotine Cross's Katar
+28040 0 0 0 # Sealed Katar of Shiver
+28113 0 0 0 # Enhanced Metal Two-Handed Axe
+28120 0 0 0 # Trial Mechanic's Two-Handed Axe
+28137 0 0 0 # Sealed Avenger
+28215 0 0 0 # Trial Rebel's Rifle
+28216 0 0 0 # Trial Rebel's Gatling Gun
+28217 0 0 0 # Trial Rebel's Grenade Launcher
+28218 0 0 0 # Trial Rebel's Shotgun
+28412 0 0 0 # Green Apple Ring
+28511 0 0 0 # Time Keeper Ring
+28566 0 0 0 # Beginner's Ring
+28607 0 0 0 # Enhanced Metal Book
+28613 0 0 0 # Trial Sorcerer's Magic Book
+28614 0 0 0 # Trial Archbishop's Bible
+28616 0 0 0 # Beginner Archbishop's Bible
+28632 0 0 0 # Sealed Exorcism Bible
+28714 0 0 0 # Enhanced Metal Dagger
+28726 0 0 0 # Trial Shadow Chaser's Dagger
+28740 0 0 0 # Beginner Shadow Chaser's Dagger
+28759 0 0 0 # Sealed Mado Sword
+28953 0 0 0 # Poring Battle Shield
+31105 0 0 0 # Costume RO Celebration Hat
+31262 0 0 0 # Costume Disposable 3D Glasses
+31263 0 0 0 # Costume Disposable Popcorn Hat
+31319 0 0 0 # Costume Summer Fan
+31320 0 0 0 # Costume Pinwheel Hat
+32004 0 0 0 # Trial Royal Guard's Lance
+32021 0 0 0 # Sealed Aquatic Spear
+32202 0 0 0 # Ring of Apology
+32221 0 0 0 # Temporal Transcendence Ring
+32252 0 0 0 # High Adventurer Clip
+100029 0 0 0 # Booster Pack(1)
+100030 0 0 0 # Booster Pack(15)
+100031 0 0 0 # Booster Pack(30)
+100032 0 0 0 # Booster Pack(45)
+100033 0 0 0 # Booster Pack(60)
+100034 0 0 0 # Booster Pack(75)
+100035 0 0 0 # Booster Pack(90)
+100036 0 0 0 # Booster Pack(100)
+100037 0 0 0 # Booster Pack(115)
+100038 0 0 0 # Booster Pack(130)
+100039 0 0 0 # Booster Pack(145)
+100040 0 0 0 # Booster Pack(160)
+100041 0 0 0 # Booster Pack(175)
+100042 0 0 0 # Booster Pack(185)
+100043 0 0 0 # Booster Armor Upgrade Package
+100044 0 0 0 # Boosting Weapon Upgrade Package
+100045 0 0 0 # Starter Armor Box
+100046 0 0 0 # Attack Booster Box
+100047 0 0 0 # Ranged Booster Box
+100048 0 0 0 # Elemental Booster Box
+100049 0 0 0 # Default Booster Box
+100050 0 0 0 # Goal Achievement Gift Box
+100051 0 0 0 # Booster Promotion Thank you Box
+100054 0 0 0 # Temporal Trancendent Shadow Box
+100087 0 0 0 # [NotForSale] Boarding Halter (30 Days)
+100125 0 0 0 # Metal Weapon +7 Refinement Ticket
+100128 0 0 0 # Noblesses Refine Ticket
+100129 0 0 0 # Imperial Refine Ticket
+100130 0 0 0 # Grace Refine Ticket
+100131 0 0 0 # Imperial Physical Modification Permit (Garment)
+100132 0 0 0 # Imperial Magical Modification Permit (Garment)
+100133 0 0 0 # Grace Physical Modification Permit (Garment)
+100134 0 0 0 # Grace Magical Modification Permit (Garment)
+100135 0 0 0 # Imperial Physical Modification Permit (Armor)
+100136 0 0 0 # Imperial Magical Modification Permit (Armor)
+100137 0 0 0 # Grace Physical Modification Permit (Armor)
+100138 0 0 0 # Grace Magical Modification Permit (Armor)
+100142 0 0 0 # Stable Dragon Power
+100147 0 0 0 # Bath Agent A
+100148 0 0 0 # Bath Agent B
+100149 0 0 0 # Bath Agent C
+100150 0 0 0 # Aroma Oil
+100152 0 0 0 # Gold PC Room Sield Box
+100160 0 0 0 # Automatic Module Box
+100161 0 0 0 # Epic Module Box
+100162 0 0 0 # Physical Automatic Modifier Box
+100163 0 0 0 # Magical Automatic Modifier Box
+100170 0 0 0 # PC Room Mileage Costume Box
+100253 0 0 0 # G STAR Event Box
+100335 0 0 0 # Booster Pack(190)
+100336 0 0 0 # Booster Pack(200)
+100337 0 0 0 # Booster Call
+100338 0 0 0 # Booster Weapon Phase 1 Upgrade Package
+100339 0 0 0 # Booster Weapon Phase 2 Upgrade Package
+100340 0 0 0 # Booster Weapon Upgrade Package
+100341 0 0 0 # Illusion (Bound) Upgrade Package
+100342 0 0 0 # Growth Potion(Small)
+100343 0 0 0 # Growth Potion(Medium)
+100344 0 0 0 # Growth Potion(Advanced)
+100345 0 0 0 # Growth Potion(Superior)
+100346 0 0 0 # Job Potion
+100347 0 0 0 # 2021 Booster Goal Achievement Gift Box
+100365 0 0 0 # Blazing Magical Power Accessory
+100366 0 0 0 # Sunken Magical Power Accessory
+100367 0 0 0 # Growth Magical Power Accessory
+100368 0 0 0 # Shining Magical Power Accessory
+100508 0 0 0 # Special Growth Potion (Lower)
+100509 0 0 0 # Special Growth Potion (Intermediate)
+100510 0 0 0 # Special Growth Potion (Advanced)
+100511 0 0 0 # Special Growth Potion (Superior)
+100616 0 0 0 # Donation Participaton Box
+100722 0 0 0 # Booster Modification Stone(Physical)
+100723 0 0 0 # Booster Modification Stone(Magical)
+100726 0 0 0 # Booster Pack(215)
+100727 0 0 0 # Booster Pack(230)
+100816 0 0 0 # Summer Vibes
+100829 0 0 0 # Farfalle
+100830 0 0 0 # Creamy Shrimp Pasta
+100831 0 0 0 # Feast Noodles
+100832 0 0 0 # Tomato Noodles
+100833 0 0 0 # Soy Sauce Bibim Noodles
+100852 0 0 0 # (unknown name)
+100853 0 0 0 # (unknown name)
+100854 0 0 0 # (unknown name)
+100871 0 0 0 # (unknown name)
+100872 0 0 0 # (unknown name)
+100873 0 0 0 # (unknown name)
+100874 0 0 0 # Infinite Giant Fly Wings Daily Box
+100900 0 0 0 # Ice Castle Teleport Wing
+100901 0 0 0 # Gray Wolf Village Teleport Wing
+100902 0 0 0 # Varmundt Mansion Teleport Wing
+100903 0 0 0 # Border Area Cor Teleport Wing
+100904 0 0 0 # Military Base Teleport Wing
+100950 0 0 0 # Ragfest Commemorative Box
+101056 0 0 0 # October Event Rewards Box
+101100 0 0 0 # Poenitentia Two Swords Set Box
+101101 0 0 0 # Poenitentia Firearm Set Box
+101123 0 0 0 # RO Live Shop Box
+101124 0 0 0 # RO Live Shop Luxury Box
+101129 0 0 0 # Random Costume Box
+101130 0 0 0 # Confirmed Costume Box
+101162 0 0 0 # Rgan Transformation Scroll
+101168 0 0 0 # [NotForSale] Special Potion
+101183 0 0 0 # Snow Flower Manastone Extractor
+101184 0 0 0 # Ice Flower Magic Stone Extractor
+101185 0 0 0 # Snow Flower Enhancement(Armor)
+101186 0 0 0 # Glacier Weapon Enhancement
+101217 0 0 0 # Snow Flower Enhancment(Garment)
+101218 0 0 0 # Snow Flower Enhancment(Shoes)
+101219 0 0 0 # Snow Flower Enhancment(Accessory A)
+101220 0 0 0 # Snow Flower Enhancment(Accessory B)
+101234 0 0 0 # Booster Pack(120)
+101236 0 0 0 # Booster Pack(150)
+101240 0 0 0 # January Event's Reward Box
+101321 0 0 0 # Event Error Reward Box
+101391 0 0 0 # Scientist's Escape Log
+101409 0 0 0 # (unknown name)
+101410 0 0 0 # (unknown name)
+101411 0 0 0 # (unknown name)
+101412 0 0 0 # (unknown name)
+101413 0 0 0 # (unknown name)
+101414 0 0 0 # (unknown name)
+101415 0 0 0 # (unknown name)
+101423 0 0 0 # Booster Armor Box
+101453 0 0 0 # Special Bag of Goods
+101454 0 0 0 # Metal Weapon Box
+101455 0 0 0 # Automatic(Bound) Upgrade Package
+101456 0 0 0 # Souvenir Box
+101457 0 0 0 # Premium Gift Box
+101458 0 0 0 # Booster Costume Helmet Box
+101459 0 0 0 # Booster Costume Garment Box
+101460 0 0 0 # Premium Booster Gift Box
+101473 0 0 0 # Premium Booster Call
+101474 0 0 0 # Booster Battle Manual
+101475 0 0 0 # Booster Advanced Battle Manual
+101476 0 0 0 # Booster Gift Box
+101490 0 0 0 # Booster Pack(10)
+101491 0 0 0 # Booster Pack(20)
+101492 0 0 0 # Booster Pack(40)
+101493 0 0 0 # Booster Pack(50)
+101494 0 0 0 # Booster Pack(70)
+101495 0 0 0 # Booster Pack(80)
+101496 0 0 0 # Booster Pack(110)
+101497 0 0 0 # Booster Pack(140)
+101498 0 0 0 # Booster Pack(170)
+101499 0 0 0 # Booster Pack(180)
+101500 0 0 0 # Booster Pack(210)
+101501 0 0 0 # Booster Pack(220)
+101502 0 0 0 # Booster Pack(240)
+101503 0 0 0 # Booster Pack(250)
+101522 0 0 0 # Fantasy Series 001
+101523 0 0 0 # Fantasy Series 002
+101524 0 0 0 # Fantasy Series 003
+101525 0 0 0 # Fantasy Series 004
+101599 0 0 0 # [Event] Equipment Crafting Material Box
+101600 0 0 0 # Merit Box(Platinum Grade)
+101601 0 0 0 # Merit Box(Gold Grade)
+101602 0 0 0 # Merit Box(Silver Grade)
+101603 0 0 0 # Merit Box(Bronze Grade)
+101604 0 0 0 # Commander's Response
+101605 0 0 0 # Commander's Advanced Response
+101638 0 0 0 # Dim Glacier Weapon Enhancement
+101639 0 0 0 # Dim Glacier Extractor
+101705 0 0 0 # Fantasy Series 006
+101706 0 0 0 # Fantasy Series 007
+101759 0 0 0 # Glade Rune Box(5)
+101760 0 0 0 # Fire Rune Box(5)
+101761 0 0 0 # Ice Rune Box(5)
+101762 0 0 0 # Death Rune Box(5)
+101765 0 0 0 # Glade Rune Enchantment
+101766 0 0 0 # Death Rune Enchantment
+101767 0 0 0 # Fire Rune Enchantment
+101768 0 0 0 # Ice Rune Enchantment
+101769 0 0 0 # Glade Rune Updrade
+101770 0 0 0 # Death Rune Updrade
+101771 0 0 0 # Fire Rune Updrade
+101772 0 0 0 # Ice Rune Updrade
+101834 0 0 0 # Fantasy Series 009
+101835 0 0 0 # Fantasy Series 005
+101837 0 0 0 # Fantasy Series 008
+101889 0 0 0 # Fantasy Series Colelction Box
+101912 0 0 0 # Temple Rune Box (5)
+101913 0 0 0 # Venom Rune Box (5)
+101914 0 0 0 # Soul Rune Box (5)
+101933 0 0 0 # Soul Rune Upgrade
+101934 0 0 0 # Venom Rune Upgrade
+101935 0 0 0 # Temple Rune Upgrade
+101936 0 0 0 # Soul Magic Upgrade
+101937 0 0 0 # Venom Magic Upgrade
+101938 0 0 0 # Temple Magic Upgrade
+101947 0 0 0 # [Achievement] Bubble Gum
+101948 0 0 0 # [Achievement] Bubble Gum Box (10)
+102209 0 0 0 # (unknown name)
+102210 0 0 0 # (unknown name)
+102317 0 0 0 # (unknown name)
+102451 0 0 0 # Mileage Gift Certificate Envelope
+102514 0 0 0 # (unknown name)
+400127 0 0 0 # Dropping Elly
+400137 0 0 0 # Paradise Cap
+400138 0 0 0 # Paradise Hat
+400139 0 0 0 # Advanced Paradise Cap
+400140 0 0 0 # Advanced Paradise Hat
+410018 0 0 0 # Booster Mask Type A
+410019 0 0 0 # Booster Mask Type B
+410020 0 0 0 # Booster Mask Type C
+420055 0 0 0 # Cherry Blossom Fan
+420074 0 0 0 # Lime Soda in Mouth
+420153 0 0 0 # Booster Scarf Type A
+420154 0 0 0 # Booster Scarf Type B
+420155 0 0 0 # Booster Scarf Type C
+420231 0 0 0 # Constellation's Protection
+440003 0 0 0 # Costume Beginner Rabbit Hood
+440006 0 0 0 # Costume Black Cat Hood
+440007 0 0 0 # Costume Beginner Squirrel Ear Hat
+440009 0 0 0 # Costume Beginner Black Moon Cat
+450001 0 0 0 # Attack Booster Plate
+450002 0 0 0 # Elemental Booster Robe
+450003 0 0 0 # Default Booster Robe
+450004 0 0 0 # Ranged Booster Suit
+450018 0 0 0 # Noblesse Breath Armor
+450019 0 0 0 # Noblesse Knight Armor
+450020 0 0 0 # Noblesse Spear Armor
+450021 0 0 0 # Noblesse Genesis Armor
+450022 0 0 0 # Noblesse Sharp Suit
+450023 0 0 0 # Noblesse Aimed Suit
+450024 0 0 0 # Noblesse Severe Suit
+450025 0 0 0 # Noblesse Reverb Suit
+450026 0 0 0 # Noblesse Adora Robe
+450027 0 0 0 # Noblesse Duple Robe
+450028 0 0 0 # Noblesse Tornado Armor
+450029 0 0 0 # Noblesse Vulcan Armor
+450030 0 0 0 # Noblesse Cart Cannon Suit
+450031 0 0 0 # Noblesse Cart Tornado Suit
+450032 0 0 0 # Noblesse Rolling Suit
+450033 0 0 0 # Noblesse Assassin Suit
+450034 0 0 0 # Noblesse Fatal Suit
+450035 0 0 0 # Noblesse Stalker Suit
+450036 0 0 0 # Noblesse Picky Robe
+450037 0 0 0 # Noblesse Catnip Robe
+450038 0 0 0 # Noblesse Trip Suit
+450039 0 0 0 # Noblesse Fire Rain Suit
+450040 0 0 0 # Noblesse Crimson Robe
+450041 0 0 0 # Noblesse Frost Robe
+450042 0 0 0 # Noblesse Psychic Robe
+450043 0 0 0 # Noblesse Dust Robe
+450044 0 0 0 # Noblesse Sun Suit
+450045 0 0 0 # Noblesse Moon Suit
+450046 0 0 0 # Noblesse Ninja Suit
+450047 0 0 0 # Noblesse Kunai Suit
+450048 0 0 0 # Noblesse Eswhoo Robe
+450049 0 0 0 # Noblesse Explosion Robe
+450050 0 0 0 # Noblesse Knuckle Suit
+450051 0 0 0 # Noblesse Tiger Suit
+450052 0 0 0 # Imperial Breath Armor
+450053 0 0 0 # Imperial Knight Armor
+450054 0 0 0 # Imperial Spear Armor
+450055 0 0 0 # Imperial Genesis Armor
+450056 0 0 0 # Imperial Sharp Suit
+450057 0 0 0 # Imperial Aimed Suit
+450058 0 0 0 # Imperial Severe Suit
+450059 0 0 0 # Imperial Reverb Suit
+450060 0 0 0 # Imperial Adora Robe
+450061 0 0 0 # Imperial Duple Robe
+450062 0 0 0 # Imperial Knuckle Suit
+450063 0 0 0 # Imperial Tiger Suit
+450064 0 0 0 # Imperial Tornado Armor
+450065 0 0 0 # Imperial Vulcan Armor
+450066 0 0 0 # Imperial Cart Cannon Suit
+450067 0 0 0 # Imperial Cart Tornado Suit
+450068 0 0 0 # Imperial Rolling Suit
+450069 0 0 0 # Imperial Assassin Suit
+450070 0 0 0 # Imperial Fatal Suit
+450071 0 0 0 # Imperial Stalker Suit
+450072 0 0 0 # Imperial Picky Robe
+450073 0 0 0 # Imperial Catnip Robe
+450074 0 0 0 # Imperial Trip Suit
+450075 0 0 0 # Imperial Fire Rain Suit
+450076 0 0 0 # Imperial Crimson Robe
+450077 0 0 0 # Imperial Frost Robe
+450078 0 0 0 # Imperial Psychic Robe
+450079 0 0 0 # Imperial Dust Robe
+450080 0 0 0 # Imperial Sun Suit
+450081 0 0 0 # Imperial Moon Suit
+450082 0 0 0 # Imperial Ninja Suit
+450083 0 0 0 # Imperial Kunai Suit
+450084 0 0 0 # Imperial Eswhoo Robe
+450085 0 0 0 # Imperial Explosion Robe
+450086 0 0 0 # Grace Breath Armor
+450087 0 0 0 # Grace Knight Armor
+450088 0 0 0 # Grace Spear Armor
+450089 0 0 0 # Grace Genesis Armor
+450090 0 0 0 # Grace Sharp Suit
+450091 0 0 0 # Grace Aimed Suit
+450092 0 0 0 # Grace Severe Suit
+450093 0 0 0 # Grace Reverb Suit
+450094 0 0 0 # Grace Adora Robe
+450095 0 0 0 # Grace Duple Robe
+450096 0 0 0 # Grace Knuckle Suit
+450097 0 0 0 # Grace Tiger Suit
+450098 0 0 0 # Grace Tornado Armor
+450099 0 0 0 # Grace Vulcan Armor
+450100 0 0 0 # Grace Cart Cannon Suit
+450101 0 0 0 # Grace Cart Tornado Suit
+450102 0 0 0 # Grace Rolling Suit
+450103 0 0 0 # Grace Assassin Suit
+450104 0 0 0 # Grace Fatal Suit
+450105 0 0 0 # Grace Stalker Suit
+450106 0 0 0 # Grace Picky Robe
+450107 0 0 0 # Grace Catnip Robe
+450108 0 0 0 # Grace Trip Suit
+450109 0 0 0 # Grace Fire Rain Suit
+450110 0 0 0 # Grace Crimson Robe
+450111 0 0 0 # Grace Frost Robe
+450112 0 0 0 # Grace Psychic Robe
+450113 0 0 0 # Grace Dust Robe
+450114 0 0 0 # Grace Sun Suit
+450115 0 0 0 # Grace Moon Suit
+450116 0 0 0 # Grace Ninja Suit
+450117 0 0 0 # Grace Kunai Suit
+450118 0 0 0 # Grace Eswhoo Robe
+450119 0 0 0 # Grace Explosion Robe
+450121 0 0 0 # Noblesse Super Novice Suit
+450122 0 0 0 # Noblesse Super Novice Robe
+450123 0 0 0 # Imperial Super Novice Suit
+450124 0 0 0 # Imperial Super Novice Robe
+450125 0 0 0 # Grace Super Novice Suit
+450126 0 0 0 # Grace Super Novice Robe
+450147 0 0 0 # Illusion Armor Type A (Bound)
+450148 0 0 0 # Illusion Armor Type B (Bound)
+450183 0 0 0 # Paradise Suit
+450184 0 0 0 # Paradise Robe
+450185 0 0 0 # Advanced Paradise Suit
+450186 0 0 0 # Advanced Paradise Robe
+450198 0 0 0 # Ragfest Cotton Shirt for Refining
+450218 0 0 0 # Automatic Armor Type A(Bound)
+450219 0 0 0 # Automatic Armor Type B(Bound)
+450282 0 0 0 # Engraved Fiery Earth Rune Armor
+450283 0 0 0 # Engraved Icy Storm Rune Suit
+450284 0 0 0 # Engraved Soul Purifying Rune Robe
+450285 0 0 0 # Engraved Corrupted Poison Rune Cloth
+470000 0 0 0 # Attack Booster Greaves
+470001 0 0 0 # Elemental Booster Shoes
+470002 0 0 0 # Default Booster Shoes
+470003 0 0 0 # Ranged Booster Boots
+470016 0 0 0 # Noblesse Attack Boots
+470017 0 0 0 # Noblesse Magic Boots
+470018 0 0 0 # Imperial Attack Boots
+470019 0 0 0 # Imperial Magic Boots
+470020 0 0 0 # Grace Attack Boots
+470021 0 0 0 # Grace Magic Boots
+470054 0 0 0 # Illusion Leg Type A (Bound)
+470055 0 0 0 # Illusion Leg Type B (Bound)
+470067 0 0 0 # Paradise Boots
+470068 0 0 0 # Paradise Shoes
+470069 0 0 0 # Advanced Paradise Boots
+470093 0 0 0 # Advanced Paradise Shoes
+470125 0 0 0 # Automatic Leg Type A(Bound)
+470126 0 0 0 # Automatic Leg Type B(Bound)
+480000 0 0 0 # Attack Booster Manteau
+480001 0 0 0 # Elemental Booster Muffler
+480002 0 0 0 # Default Booster Muffler
+480003 0 0 0 # Ranged Booster Manteau
+480012 0 0 0 # Noblesse Attack Manteau
+480014 0 0 0 # Noblesse Magic Manteau
+480016 0 0 0 # Imperial Attack Manteau
+480017 0 0 0 # Imperial Magic Manteau
+480018 0 0 0 # Grace Attack Manteau
+480019 0 0 0 # Grace Magic Manteau
+480062 0 0 0 # Illusion Engine Wing Type A (Bound)
+480063 0 0 0 # Illusion Engine Wing Type B (Bound)
+480103 0 0 0 # Paradise Manteau
+480104 0 0 0 # Paradise Muffler
+480105 0 0 0 # Advanced Paradise Manteau
+480106 0 0 0 # Advanced Paradise Muffler
+480185 0 0 0 # Automatic Engine Wing Type A(Bound)
+480186 0 0 0 # Automatic Engine Wing Type B(Bound)
+490004 0 0 0 # Attack Booster Ring
+490005 0 0 0 # Elemental Booster Earring
+490006 0 0 0 # Default Booster Earring
+490007 0 0 0 # Ranged Booster Brooch
+490014 0 0 0 # Noblesse Attack Ring
+490015 0 0 0 # Noblesse Magic Ring
+490017 0 0 0 # Imperial Attack Ring
+490018 0 0 0 # Imperial Magic Ring
+490019 0 0 0 # Grace Attack Ring
+490020 0 0 0 # Grace Magic Ring
+490072 0 0 0 # Illusion Booster R(Bound)
+490073 0 0 0 # Illusion Booster L(Bound)
+490074 0 0 0 # Illusion Battle Chip R(Bound)
+490075 0 0 0 # Illusion Battle Chip L(Bound)
+490087 0 0 0 # Hourglass Necklace
+490122 0 0 0 # Paradise Ring
+490123 0 0 0 # Paradise Gloves
+490124 0 0 0 # Paradise Magic Ring
+490125 0 0 0 # Paradise Necklace
+490126 0 0 0 # Advanced Paradise Ring
+490127 0 0 0 # Advanced Paradise Gloves
+490128 0 0 0 # Advanced Paradise Magic Ring
+490129 0 0 0 # Advanced Paradise Necklace
+490214 0 0 0 # Automatic Booster R(Bound)
+490215 0 0 0 # Automatic Booster L(Bound)
+490216 0 0 0 # Automatic Battle Chip R(Bound)
+490217 0 0 0 # Automatic Battle Chip L(Bound)
+500001 0 0 0 # Boosting Sword
+500015 0 0 0 # Pressure Genesis Booster Sword
+500016 0 0 0 # Hells Tornado Booster Sword
+500032 0 0 0 # Paradise Sword
+500033 0 0 0 # Paradise Crusader Sword
+500034 0 0 0 # Paradise Alchemist Sword
+500035 0 0 0 # Paradise Super Novice Sword
+500036 0 0 0 # Paradise Royal Guard Sword
+500037 0 0 0 # Paradise Genetic Sword
+500042 0 0 0 # Super Psychic Booster Saber
+500043 0 0 0 # Super Ignition Booster Saber
+510001 0 0 0 # Boosting Dagger
+510002 0 0 0 # Boosting Nindo
+510017 0 0 0 # Counter Assault Booster Dagger
+510018 0 0 0 # Magic Fatal Booster Dagger
+510035 0 0 0 # Paradise Dagger
+510036 0 0 0 # Paradise Rogue Dagger
+510037 0 0 0 # Paradise Soul Linker Dagger
+510038 0 0 0 # Paradise Shadow Chaser Dagger
+510039 0 0 0 # Paradise Super Novice Dagger
+510069 0 0 0 # Super Novice Booster Dagger
+520000 0 0 0 # Boosting Axe
+520010 0 0 0 # Paradise Axe
+520011 0 0 0 # Paradise Blacksmith Axe
+520012 0 0 0 # Paradise Mechanic Axe
+530000 0 0 0 # Boosting Sphere
+530005 0 0 0 # Banishing Cannon Booster Spear
+530017 0 0 0 # Paradise Crusader Spear
+530018 0 0 0 # Paradise Royal Guard Spear
+540000 0 0 0 # Boosting Spellbook
+540001 0 0 0 # Boosting Text
+540009 0 0 0 # Spell Bolt Booster Book
+540027 0 0 0 # Paradise Sage Magic Book
+540028 0 0 0 # Paradise Sage Spellbook
+540029 0 0 0 # Paradise Taekwon Martial Arts Book
+540030 0 0 0 # Paradise Taekwon Power Book
+540031 0 0 0 # Paradise Sorcerer Magic Book
+540032 0 0 0 # Paradise Sorcerer Spellbook
+540033 0 0 0 # Paradise Star Emperor Sun Book
+540034 0 0 0 # Paradise Star Emperor Moon Book
+540039 0 0 0 # Moon Starlight Booster Book
+540040 0 0 0 # Sunshine Booster Book
+550001 0 0 0 # Boosting Soul Rod
+550002 0 0 0 # Boosting Foxtail
+550010 0 0 0 # Elemental Spell Booster Stick
+550011 0 0 0 # Adonus Booster Wand
+550032 0 0 0 # Paradise Staff
+550033 0 0 0 # Paradise Foxtail
+550034 0 0 0 # Paradise Wizard Staff
+550035 0 0 0 # Paradise Wizard Wand
+550036 0 0 0 # Paradise Priest Staff
+550037 0 0 0 # Paradise Soul Linker Staff
+550038 0 0 0 # Paradise Doram Foxtail
+550039 0 0 0 # Paradise Doram Foxtail Model
+550040 0 0 0 # Paradise Super Novice Staff
+550041 0 0 0 # Paradise Archbishop Staff
+550042 0 0 0 # Paradise Summoner Foxtail
+550043 0 0 0 # Paradise Summoner Foxtail Model
+550044 0 0 0 # Paradise Super Novice Wand
+550050 0 0 0 # Lunatic Picky Booster Foxtail
+550051 0 0 0 # Catnip Booster Foxtail Model
+550052 0 0 0 # Es Booster Staff
+550053 0 0 0 # Evil Curse Booster Staff
+550079 0 0 0 # Super Novice Booster Wand
+560000 0 0 0 # Boosting Knuckle
+560006 0 0 0 # Rampage Arrow Booster Knuckle
+560007 0 0 0 # Sky Cannon Booster Knuckle
+560022 0 0 0 # Paradise Monk Knuckles
+560023 0 0 0 # Paradise Monk Claws
+560024 0 0 0 # Paradise Sura Knuckle
+560025 0 0 0 # Paradise Sura Claws
+570000 0 0 0 # Boosting Guitar
+570010 0 0 0 # Metallic Reverberation Booster Violin
+570021 0 0 0 # Paradise Bard Violin
+570022 0 0 0 # Paradise Minstrel Violin
+570023 0 0 0 # Paradise Minstrel Harp
+570024 0 0 0 # Rainstorm Booster Violin
+580000 0 0 0 # Boosting Whip
+580010 0 0 0 # Metallic Reverberation Booster Whip
+580021 0 0 0 # Paradise Dancer Rope
+580022 0 0 0 # Paradise Wanderer Whip
+580023 0 0 0 # Paradise Wanderer Rope
+580024 0 0 0 # Rainstorm Booster Whip
+590000 0 0 0 # Boosting Hole
+590008 0 0 0 # Arms Knuckle Booster Mace
+590009 0 0 0 # Acid Cannon Booster Club
+590010 0 0 0 # Dupledex Booster Mace
+590025 0 0 0 # Paradise Mace
+590026 0 0 0 # Paradise Alchemist Mace
+590027 0 0 0 # Paradise Priest Mace
+590028 0 0 0 # Paradise Genetic Mace
+590029 0 0 0 # Paradise Archbishop Mace
+600001 0 0 0 # Boosting Two-Handed Sword
+600012 0 0 0 # Ignition Wave Booster Two-Handed Sword
+600020 0 0 0 # Paradise Knight Two-Handed Sword
+600021 0 0 0 # Paradise Rune Knight Two-handed Sword
+610000 0 0 0 # Boosting Katar
+610013 0 0 0 # Rolling Cross Booster Katar
+610024 0 0 0 # Paradise Assassin Chakram
+610025 0 0 0 # Paradise Assassin Katar
+610026 0 0 0 # Paradise Guillotine Cross Chakram
+610027 0 0 0 # Paradise Guillotine Cross Katar
+610028 0 0 0 # Counter Assault Booster Katar
+620003 0 0 0 # Power Tornado Booster Axe
+620011 0 0 0 # Paradise Blacksmith Two-Handed Axe
+620012 0 0 0 # Paradise Mechanic Two-Handed Axe
+630008 0 0 0 # Hundred Breath Booster Spear
+630014 0 0 0 # Paradise Knight Lance
+630015 0 0 0 # Paradise Rune Knight Lance
+640000 0 0 0 # Boosting Staff
+640009 0 0 0 # Crimson Strain Booster Staff
+640010 0 0 0 # Chain Jack Booster Staff
+640023 0 0 0 # Paradise Warlock Staff
+640024 0 0 0 # Paradise Warlock Wand
+640025 0 0 0 # Paradise Soul Reaper Staff
+640026 0 0 0 # Paradise Soul Reaper Soul Stick
+650010 0 0 0 # Paradise Ninja Punishment Shuriken
+650011 0 0 0 # Paradise Ninja Crucifixion Shuriken
+650012 0 0 0 # Paradise Kagerou&Oboro Huuma Shuriken
+650013 0 0 0 # Paradise Kagerou&Oboro Cross Huuma Shuriken
+650017 0 0 0 # Wind Spear Petal Booster Huuma Shuriken
+650018 0 0 0 # Cross Petal Booster Huuma Shuriken
+700001 0 0 0 # Boosting Bow
+700014 0 0 0 # Triangle Bomb Booster Bow
+700015 0 0 0 # Arrow Booster Bow
+700016 0 0 0 # Sharp Bolt Booster Bow
+700017 0 0 0 # Rainstorm Arrow Booster Bow
+700036 0 0 0 # Paradise Bow
+700037 0 0 0 # Paradise Rogue Bow
+700038 0 0 0 # Paradise Hunter Bow
+700039 0 0 0 # Paradise Hunter Crossbow
+700040 0 0 0 # Paradise Bard&Dancer Bow
+700041 0 0 0 # Paradise Shadow Chaser Bow
+700042 0 0 0 # Paradise Ranger Bow
+700043 0 0 0 # Paradise Ranger Crossbow
+800004 0 0 0 # Paradise Revolver
+800005 0 0 0 # Paradise Gunslinger Revolver
+800006 0 0 0 # Paradise Rebellion Revolver
+800008 0 0 0 # Desperado Fire Booster Revolver
+810003 0 0 0 # Paradise Gunslinger Rifle
+830000 0 0 0 # Boosting Gatling
+830004 0 0 0 # Paradise Rebellion Gatling Gun
+830007 0 0 0 # Fire Round Booster Gatling Gun
+1000001 0 0 0 # 1st Job Change Ticket
+1000002 0 0 0 # 2nd Job Change Ticket
+1000003 0 0 0 # Transcendence Ticket
+1000004 0 0 0 # Top Job Tickets
+1000005 0 0 0 # Boosting Weapon Voucher
+1000006 0 0 0 # Booster Armor Voucher
+1000092 0 0 0 # Elyumina Radar
+1000093 0 0 0 # Red Pitaya Tail
+1000094 0 0 0 # Yellow Pitaya Tail
+1000095 0 0 0 # Blue Pitaya Tail
+1000096 0 0 0 # Green Pitaya Tail
+1000097 0 0 0 # Purple Pitaya Tail
+1000098 0 0 0 # Boss Pitaya Tail
+1000099 0 0 0 # Gardener's Cookies
+1000100 0 0 0 # Freezing Trap
+1000101 0 0 0 # Automatic Doll Parts
+1000102 0 0 0 # Emergency Key
+1000226 0 0 0 # Broken Doll's Core
+1000231 0 0 0 # Broken Automatic Doll Parts
+1000232 0 0 0 # Automatic Doll Communication Chip
+1000253 0 0 0 # Booster Weapon Voucher
+1000254 0 0 0 # Booster Coin
+1000271 0 0 0 # Piece of Impression
+1000272 0 0 0 # Piece of Inspiration
+1000283 0 0 0 # (Event) Episode 16 Clear Ticket
+1000311 0 0 0 # Hawk Flute
+1000364 0 0 0 # Contaminated Stone
+1000366 0 0 0 # Geffen Arena Championship
+1000406 0 0 0 # Very Unusual Crystal
+1000407 0 0 0 # Half Flower
+1000408 0 0 0 # Recording Note
+1000409 0 0 0 # Document File
+1000410 0 0 0 # Water Filter
+1000411 0 0 0 # Purified Water
+1000412 0 0 0 # Trapped Bird
+1000413 0 0 0 # Trapped Lizard
+1000414 0 0 0 # Trapped Pear
+1000570 0 0 0 # Noodle Festival Development Fund Certificate
+1000571 0 0 0 # Is it a star button?!
+1000604 0 0 0 # Jungkea's Test Tube
+1000605 0 0 0 # Red Liquid Test Tube
+1000606 0 0 0 # Intermediate Rgan's Eggshell
+1000607 0 0 0 # Guardian's Invitation
+1000644 0 0 0 # Ragfest Stamp Card
+1000657 0 0 0 # Soul Thread
+1000705 0 0 0 # Rgan's Magic Core
+1000706 0 0 0 # Purified Magic Core
+1000708 0 0 0 # Frozen Meat
+1000709 0 0 0 # Clean Snow
+1000842 0 0 0 # Super Strong Antennae
+1000845 0 0 0 # Ledger
+1000846 0 0 0 # Ice Snack
+1000851 0 0 0 # Small Brush
+1000852 0 0 0 # Soft Hanji
+1000853 0 0 0 # Chulho's Portrait
+1000967 0 0 0 # Status Reset Ticket
+1000983 0 0 0 # Skill Reset Ticket
+1000984 0 0 0 # Booster Mission Ticket
+1000985 0 0 0 # Automatic Equipment Voucher
+1000989 0 0 0 # Level Up Ticket(80~89)
+1000990 0 0 0 # Level Up Ticket(90~98)
+1000991 0 0 0 # Level Up Ticket(150~169)
+1000992 0 0 0 # Level Up Ticket(170~189)
+1000993 0 0 0 # Level Up Ticket(230~239)
+1000994 0 0 0 # Illusion Equipment Voucher
+1000995 0 0 0 # Booster Costume Premium Enchantment Ticket
+1001153 0 0 0 # Ancient Icewind Egg
+1001154 0 0 0 # Snake Strawberry
+1001157 0 0 0 # Gumming's Hair
+1001158 0 0 0 # Gumming's Hide
+1001216 0 0 0 # Sticky Dough
+1001218 0 0 0 # Power Recovery Device
+1001254 0 0 0 # Corrupted Heart Fragment of Ymir
+1001589 0 0 0 # Special Cor Core
+1001590 0 0 0 # Special Varmeal Ticket
+1001591 0 0 0 # Special Amethyst Fragment
+1001596 0 0 0 # Lammir's Scale
