@@ -1,35 +1,13 @@
 automacro EnableAutolootOnLogin {
 	OnCharLogIn 1
 	call {
-		$buffCheckReady = 0
-		$huntMap = &config(lockMap)
 		pause 2
 		do c @autoloot 100
-		# Buff list is empty right after (re)connecting until the server re-sends it; wait before checking buffs.
-		pause 8
-		$buffCheckReady = 1
 	}
 }
 
-# Blessing or Increase AGI wore off while hunting: Butterfly Wing to Prontera; PronteraToHuntMap does the rest.
-automacro RebuffWhenBuffsOff {
-	InMap $huntMap
-	VarValue $buffCheckReady 1
-	StatusInactiveHandle EFST_BLESSING, EFST_INC_AGI
-	InInventory "Butterfly Wing" > 0
-	isAlive 1
-	exclusive 1
-	timeout 30
-	call {
-		log Buff wore off - Butterfly Wing to Prontera for the healer.
-		do is Butterfly Wing
-	}
-}
-
-# HP critically low while hunting: Butterfly Wing to Prontera; PronteraToHuntMap heals and warps back.
 automacro EscapeOnLowHP {
-	InMap $huntMap
-	VarValue $buffCheckReady 1
+	NotInMap prontera
 	CurrentHP < 5%
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
@@ -42,28 +20,45 @@ automacro EscapeOnLowHP {
 	}
 }
 
-# Walking to the hunting map is broken on this server (remade Izlude), so never walk there:
-# on any map other than Prontera or the hunting map, Butterfly Wing to Prontera first.
-automacro WingToPronteraIfElsewhere {
-	NotInMap prontera
-	VarValue $buffCheckReady 1
+automacro TeleportFromHiddenAttacker {
+	Eval $::field && !$::field->isCity && scalar grep { ($_->{statuses}{EFFECTSTATE_HIDING} || $_->{statuses}{EFFECTSTATE_BURROW}) && ($_->{dmgToYou} || $_->{missedYou} || $_->{castOnToYou}) } @{$::monstersList->getItems}
+	isAlive 1
+	exclusive 1
+	priority 0
+	timeout 5
+	call {
+		log A hidden monster is attacking - teleporting away.
+		do tele
+	}
+}
+
+automacro RebuffWhenBuffsOff {
+	Eval $::field && $::field->baseName eq $::config{lockMap} && time - $::timeout{ai}{time} > 8
+	StatusInactiveHandle EFST_BLESSING, EFST_INC_AGI
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
 	exclusive 1
 	timeout 30
 	call {
-		if ($.map != $huntMap) {
-			log On $.map instead of $huntMap - Butterfly Wing to Prontera to use the warper.
-			do is Butterfly Wing
-		}
+		log Buff wore off - Butterfly Wing to Prontera for the healer.
+		do is Butterfly Wing
 	}
 }
 
-# In Prontera for any reason (login, respawn, after storage, rebuff): heal, then take the warper to the hunting map.
-# Runs only after storageAuto has left the AI queue (eventMacro_notWhenInQueue), so the order is store -> heal -> warp.
+automacro WingToPronteraIfElsewhere {
+	Eval $::field && $::field->baseName ne 'prontera' && $::field->baseName ne $::config{lockMap} && time - $::timeout{ai}{time} > 8
+	InInventory "Butterfly Wing" > 0
+	isAlive 1
+	exclusive 1
+	timeout 30
+	call {
+		log On $.map instead of &config(lockMap) - Butterfly Wing to Prontera to use the warper.
+		do is Butterfly Wing
+	}
+}
+
 automacro PronteraToHuntMap {
 	InMap prontera
-	VarValue $buffCheckReady 1
 	isAlive 1
 	exclusive 1
 	timeout 20
@@ -74,7 +69,7 @@ automacro PronteraToHuntMap {
 		pause 1
 		do talknpc 162 196 n
 		pause 1
-		log Healed and buffed - taking the warper to $huntMap.
+		log Healed and buffed - taking the warper to &config(lockMap).
 		do talknpc 159 196 &config(warper_steps)
 	}
 }

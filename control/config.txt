@@ -166,7 +166,7 @@ avoidList_reconnect 1800
 avoidList_ignoreList
 
 avoidHiddenActors 0
-avoidHiddenMonsters 0
+avoidHiddenMonsters 1
 
 cachePlayerNames 1
 cachePlayerNames_duration 900
@@ -290,13 +290,13 @@ shop_useSkill 1
 buyerShopAuto_open 0
 buyerShop_random 0
 
-sitAuto_hp_lower 40
-sitAuto_hp_upper 100
+sitAuto_hp_lower 0
+sitAuto_hp_upper 0
 sitAuto_sp_lower 0
 sitAuto_sp_upper 0
 sitAuto_follow 0
 sitAuto_over_50 0
-sitAuto_idle 1
+sitAuto_idle 0
 sitAuto_look
 sitAuto_look_from_wall
 sitAuto_look_delay
@@ -335,7 +335,7 @@ teleportAuto_lostTarget 0
 teleportAuto_dropTarget 0
 teleportAuto_dropTargetEngaged 0
 teleportAuto_dropTargetKS 0
-teleportAuto_dropTargetHidden 0
+teleportAuto_dropTargetHidden 1
 teleportAuto_attackedWhenSitting 0
 teleportAuto_totalDmg 0
 teleportAuto_totalDmgInLock 0
