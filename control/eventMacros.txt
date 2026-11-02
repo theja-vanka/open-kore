@@ -8,14 +8,14 @@ automacro EnableAutolootOnLogin {
 
 automacro EscapeOnLowHP {
 	NotInMap prontera
-	CurrentHP < 5%
+	CurrentHP < 10%
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
 	exclusive 1
 	priority 0
 	timeout 5
 	call {
-		log HP below 5% - Butterfly Wing to Prontera for the healer.
+		log HP below 10% - Butterfly Wing to Prontera for the healer.
 		do is Butterfly Wing
 	}
 }
@@ -45,6 +45,19 @@ automacro RebuffWhenBuffsOff {
 	}
 }
 
+automacro WingWhenOverweight {
+	Eval $::field && !$::field->isCity && !AI::inQueue('teleport') && Misc::percent_weight($::char) >= $::config{itemsMaxWeight_sellOrStore} && AI::ai_storageAutoCheck() && time - $::timeout{ai}{time} > 8
+	InInventory "Butterfly Wing" > 0
+	isAlive 1
+	exclusive 1
+	overrideNotWhenInQueue 1
+	timeout 30
+	call {
+		log Weight at or above &config(itemsMaxWeight_sellOrStore)% - Butterfly Wing to Prontera to store.
+		do is Butterfly Wing
+	}
+}
+
 automacro WingToPronteraIfElsewhere {
 	Eval $::field && $::field->baseName ne 'prontera' && $::field->baseName ne $::config{lockMap} && time - $::timeout{ai}{time} > 8
 	InInventory "Butterfly Wing" > 0
@@ -59,6 +72,7 @@ automacro WingToPronteraIfElsewhere {
 
 automacro PronteraToHuntMap {
 	InMap prontera
+	Eval Misc::percent_weight($::char) < $::config{itemsMaxWeight_sellOrStore} || !AI::ai_storageAutoCheck()
 	isAlive 1
 	exclusive 1
 	timeout 20
