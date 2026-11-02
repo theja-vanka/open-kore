@@ -58,6 +58,12 @@
 # <attack> = 1
 
 
+##### Teleport away on sight (Creamy Card skill) #####
+Harpy -1 1 0
+Harpy Ringleader -1 1 0
+Furious Harpy -1 1 0
+
+
 ##### Eggs #####
 Ant's Egg 0 0 0
 PecoPeco's Egg 0 0 0
