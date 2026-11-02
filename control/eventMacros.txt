@@ -21,7 +21,7 @@ automacro EscapeOnLowHP {
 }
 
 automacro TeleportFromHiddenAttacker {
-	Eval $::field && !$::field->isCity && scalar grep { ($_->{statuses}{EFFECTSTATE_HIDING} || $_->{statuses}{EFFECTSTATE_BURROW}) && ($_->{dmgToYou} || $_->{missedYou} || $_->{castOnToYou}) } @{$::monstersList->getItems}
+	Eval ($::field && !$::field->isCity && scalar grep { ($_->{statuses}{EFFECTSTATE_HIDING} || $_->{statuses}{EFFECTSTATE_BURROW}) && ($_->{dmgToYou} || $_->{missedYou} || $_->{castOnToYou}) } @{$::monstersList->getItems}) ? 1 : 0
 	isAlive 1
 	exclusive 1
 	priority 0
@@ -33,7 +33,7 @@ automacro TeleportFromHiddenAttacker {
 }
 
 automacro RebuffWhenBuffsOff {
-	Eval $::field && $::field->baseName eq $::config{lockMap} && time - $::timeout{ai}{time} > 8
+	Eval ($::field && $::field->baseName eq $::config{lockMap} && time - $::timeout{ai}{time} > 8) ? 1 : 0
 	StatusInactiveHandle EFST_BLESSING, EFST_INC_AGI
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
@@ -46,7 +46,7 @@ automacro RebuffWhenBuffsOff {
 }
 
 automacro WingWhenOverweight {
-	Eval $::field && !$::field->isCity && !AI::inQueue('teleport') && Misc::percent_weight($::char) >= $::config{itemsMaxWeight_sellOrStore} && AI::ai_storageAutoCheck() && time - $::timeout{ai}{time} > 8
+	Eval ($::field && !$::field->isCity && !AI::inQueue('teleport') && Misc::percent_weight($::char) >= $::config{itemsMaxWeight_sellOrStore} && AI::ai_storageAutoCheck() && time - $::timeout{ai}{time} > 8) ? 1 : 0
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
 	exclusive 1
@@ -59,7 +59,7 @@ automacro WingWhenOverweight {
 }
 
 automacro WingToPronteraIfElsewhere {
-	Eval $::field && $::field->baseName ne 'prontera' && $::field->baseName ne $::config{lockMap} && time - $::timeout{ai}{time} > 8
+	Eval ($::field && $::field->baseName ne 'prontera' && $::field->baseName ne $::config{lockMap} && time - $::timeout{ai}{time} > 8) ? 1 : 0
 	InInventory "Butterfly Wing" > 0
 	isAlive 1
 	exclusive 1
@@ -72,7 +72,7 @@ automacro WingToPronteraIfElsewhere {
 
 automacro PronteraToHuntMap {
 	InMap prontera
-	Eval Misc::percent_weight($::char) < $::config{itemsMaxWeight_sellOrStore} || !AI::ai_storageAutoCheck()
+	Eval (Misc::percent_weight($::char) < $::config{itemsMaxWeight_sellOrStore} || !AI::ai_storageAutoCheck()) ? 1 : 0
 	isAlive 1
 	exclusive 1
 	timeout 20
