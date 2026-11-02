@@ -59,7 +59,7 @@ automacro PronteraToHuntMap {
 		do talknpc 162 196 n
 		pause 1
 		log Healed and buffed - taking the warper to $huntMap.
-		do talknpc 159 194 &config(warper_steps)
+		do talknpc 159 196 &config(warper_steps)
 	}
 }
 

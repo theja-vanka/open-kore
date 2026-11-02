@@ -215,7 +215,7 @@ itemsTakeGreed 0
 itemsCheckWeight 1
 
 lockMap iz_dun02
-# Talk steps for the Prontera warper at (159,194) to reach lockMap (used by eventMacros.txt).
+# Talk steps for the Prontera warper at (159,196) to reach lockMap (used by eventMacros.txt).
 # OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
 warper_steps r~/(iz_dun0?2|(Byalan|Izlude)\D*0?3)\b/i
 lockMap_x
