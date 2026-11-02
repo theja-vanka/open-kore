@@ -26,6 +26,19 @@ automacro RebuffWhenBuffsOff {
 	}
 }
 
+automacro WingWhenOverweight {
+	Eval $::field && !$::field->isCity && !AI::inQueue('teleport') && Misc::percent_weight($::char) >= $::config{itemsMaxWeight_sellOrStore} && AI::ai_storageAutoCheck() && time - $::timeout{ai}{time} > 8
+	InInventory "Butterfly Wing" > 0
+	isAlive 1
+	exclusive 1
+	overrideNotWhenInQueue 1
+	timeout 30
+	call {
+		log Weight at or above &config(itemsMaxWeight_sellOrStore)% - Butterfly Wing to Prontera to store.
+		do is Butterfly Wing
+	}
+}
+
 # Walking to the hunting map is broken on this server (remade Izlude), so never walk there:
 # on any map other than Prontera or the hunting map, Butterfly Wing to Prontera first.
 automacro WingToPronteraIfElsewhere {
@@ -48,6 +61,7 @@ automacro WingToPronteraIfElsewhere {
 automacro PronteraToHuntMap {
 	InMap prontera
 	VarValue $buffCheckReady 1
+	Eval Misc::percent_weight($::char) < $::config{itemsMaxWeight_sellOrStore} || !AI::ai_storageAutoCheck()
 	isAlive 1
 	exclusive 1
 	timeout 20
