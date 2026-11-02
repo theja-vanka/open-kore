@@ -54,6 +54,7 @@ all 0 1 0
 506 0 1 0 # Green Potion
 501 25 1 0 # Red Potion
 656 0 0 0 # Awakening Potion (never store)
+1300029 0 0 0 # Eir VIP Ticket (never store)
 502 25 1 0 # Orange Potion
 504 25 1 0  # White Potion
 503 25 1 0 # Yellow potion
