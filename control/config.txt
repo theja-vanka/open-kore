@@ -380,7 +380,7 @@ wx_map_playerNameZoom 8
 wx_map_partyNameZoom 1
 wx_map_portalDestinations 0
 wx_npcTalk
-wx_captcha
+wx_captcha 1
 showAllDamage 0
 githubURL
 githubIssueURL

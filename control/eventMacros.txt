@@ -6,6 +6,18 @@ automacro EnableAutolootOnLogin {
 	}
 }
 
+automacro BotCheckAlert {
+	SimpleHookEvent captcha_file
+	overrideNotWhenInQueue 1
+	priority 0
+	call {
+		do eval print "\a\a\a"
+		do eval system(1, "mspaint", "$.SimpleHookEventLastFile")
+		log *** BOT CHECK from the server! Read the picture and type:  captcha <answer> ***
+		log *** Picture saved at $.SimpleHookEventLastFile ***
+	}
+}
+
 automacro EscapeOnLowHP {
 	NotInMap prontera
 	CurrentHP < 10%
