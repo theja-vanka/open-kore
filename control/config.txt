@@ -214,10 +214,10 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap iz_dun02
+lockMap iz_dun03
 # Talk steps for the Prontera warper at (159,196) to reach lockMap (used by eventMacros.txt).
 # OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
-warper_steps r~/Dungeon/i r~/Byalan/i r~/(iz_dun0?2|Byalan\D*0?3|Level 3|3F)\b/i
+warper_steps r~/Dungeon/i r~/Byalan/i r~/(iz_dun0?3|Byalan\D*0?4|Level 4|4F)\b/i
 lockMap_x
 lockMap_y
 lockMap_randX
