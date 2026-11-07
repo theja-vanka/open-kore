@@ -214,10 +214,10 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap yuno_fild06
+lockMap anthell01
 # Talk steps for the Prontera warper at (159,196) to reach lockMap (used by eventMacros.txt).
 # OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
-warper_steps r~/(yuno_fild0?6|(Juno|Yuno|El Mes)\D*0?6)\b/i
+warper_steps r~/Dungeon/i r~/Ant\s*Hell/i r~/(anthell0?1|Ant\s*Hell\D*0?1|Level 1|1F)\b/i
 lockMap_x
 lockMap_y
 lockMap_randX
