@@ -214,10 +214,11 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap iz_dun03
+lockMap iz_dun02
 # Talk steps for the Prontera warper at (159,196) to reach lockMap (used by eventMacros.txt).
 # OK/Next boxes are pressed automatically (autoTalkCont 1); only list menu choices here.
-warper_steps r~/Dungeon/i r~/Byalan/i r~/(iz_dun0?3|Byalan\D*0?4|Level 4|4F)\b/i
+# Step 1 picks a menu entry for iz_dun02 if one is listed before "Dungeon" (e.g. a last-warp shortcut). The warp changes the map, which ends the talk, so the remaining steps are ignored. Otherwise it picks Dungeon > Byalan > Level 3.
+warper_steps r~/(iz_dun0?2\b|Byalan\D*0?3\b|Dungeon)/i r~/Byalan/i r~/(iz_dun0?2|Byalan\D*0?3|Level 3|3F)\b/i
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -731,7 +732,7 @@ equipAuto {
 	# [checkMonsterCondition]
 }
 
-useSelf_item Awakening Potion {
+useSelf_item Berserk Potion {
 	dcOnEmpty 0
 	whenStatusInactive EFST_ATTHASTE_POTION2, EFST_ATTHASTE_POTION3
 	notWhileSitting 1
