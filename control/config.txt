@@ -304,7 +304,7 @@ sitAuto_look_delay
 sitTensionRelax 0
 
 statsAddAuto 1
-statsAddAuto_list 99 agi, 99 str
+statsAddAuto_list 99 agi, 93 str, 99 dex
 statsAddAuto_dontUseBonus 1
 statsAdd_over_99 1
 
@@ -795,6 +795,14 @@ getAuto Butterfly Wing {
 	passive
 	dcOnEmpty 0
 	# [checkSelfCondition]
+}
+
+getAuto Berserk Potion {
+	minAmount 0
+	maxAmount 3
+	batchSize
+	passive 1
+	dcOnEmpty 0
 }
 
 ######## Debugging options; only useful for developers ########

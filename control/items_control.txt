@@ -44,20 +44,20 @@ all 0 1 0
 ##### HEAL/SUPPORT ITEMS #####
 # Adjust these to your needs
 
-602 10 1 0 # Butterfly Wing
-601 100 1 0 # Fly Wing
+602 10 0 0 # Butterfly Wing (never store)
+601 0 1 0 # Fly Wing
 
 505 0 1 0 # Blue Potion
-545 50 1 0 # Condensed Red Potion
-547 50 1 0 # Condensed White Potion
-546 50 1 0 # Condensed Yellow Potion
+545 0 1 0 # Condensed Red Potion
+547 0 1 0 # Condensed White Potion
+546 0 1 0 # Condensed Yellow Potion
 506 0 1 0 # Green Potion
-501 25 1 0 # Red Potion
+501 0 1 0 # Red Potion
 657 0 0 0 # Berserk Potion (never store)
 1300029 0 0 0 # Eir VIP Ticket (never store)
-502 25 1 0 # Orange Potion
-504 25 1 0  # White Potion
-503 25 1 0 # Yellow potion
+502 0 1 0 # Orange Potion
+504 0 1 0  # White Potion
+503 0 1 0 # Yellow potion
 
 ##### ARROWS #####
 # You may want to modify these if you're an archer/hunter

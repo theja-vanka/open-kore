@@ -89,13 +89,39 @@ automacro PronteraToHuntMap {
 	exclusive 1
 	timeout 20
 	call {
-		log In Prontera - visiting the healer.
 		pause 2
+		$berserkCount = &invamount(Berserk Potion)
+		if ($berserkCount < 1) {
+			log No Berserk Potion in inventory - withdrawing from storage.
+			do autostorage
+			pause 3
+			$storageBusy = &eval(AI::inQueue('storageAuto', 'buyAuto', 'sellAuto') ? 1 : 0)
+			while ($storageBusy == 1) {
+				pause 1
+				$storageBusy = &eval(AI::inQueue('storageAuto', 'buyAuto', 'sellAuto') ? 1 : 0)
+			}
+		}
+		log In Prontera - visiting the healer.
 		do move 162 194
 		pause 1
 		do talknpc 162 196 n
 		pause 1
-		log Healed and buffed - taking the warper to &config(lockMap).
+		$sitX = &rand(152, 172)
+		$sitY = &rand(184, 192)
+		$sitTime = &rand(60, 300)
+		log Healed and buffed - walking to $sitX $sitY to sit for $sitTime seconds.
+		do move $sitX $sitY
+		pause &rand(6, 10)
+		do sit
+		pause $sitTime
+		do stand
+		pause 1
+		log Done resting - visiting the healer again.
+		do move 162 194
+		pause &rand(6, 10)
+		do talknpc 162 196 n
+		pause 1
+		log Rebuffed - taking the warper to &config(lockMap).
 		do talknpc 159 196 &config(warper_steps)
 	}
 }
